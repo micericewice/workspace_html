@@ -1,0 +1,14 @@
+ul.list-inline {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+.decoration-none a {
+  text-decoration: none;
+  color: inherit;
+}

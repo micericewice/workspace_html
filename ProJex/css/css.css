@@ -1,0 +1,313 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #cfcfcf;
+	font-family: Quicksand, sans-serif;
+	/*default font color is white*/
+	color: #ffffff;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.header, .footer {
+	height: 110px;
+}
+
+.footer {
+
+}
+
+/*also use white font for bg-color-alt*/
+.bg-color-alt {
+	background-color: #ff5959;
+	color: #ffffff;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.width-view-page {
+	position: relative;
+	width: 1214px; /*add 2x22px for each object margin*/
+	margin: 0 auto;
+	/*border: 1px solid black;*/
+}
+
+/*logo block*/
+.logo {
+	display: inline-block;
+	padding: 31px 0 0;
+	margin: 0;
+	/*float: left;*/
+}
+
+.logo, .logo p {
+	margin: 0;
+}
+
+.logo a {
+	display: inline-block;
+}
+
+/*logo*/
+.logo img {
+	margin-right: 9px;
+}
+
+/*logo name*/
+.logo span {
+	font-size: 35px;
+}
+
+/*slogan*/
+.logo p {
+	clear: left;
+	font-size: 14px;
+}
+
+/*Reset style*/
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.nav {
+	display: inline-block;
+	margin: 41px 0 0;
+}
+
+.nav li {
+	display: inline-block;
+	padding: 10px 15px;
+	border-radius: 8px;
+}
+
+.nav li:hover, .nav li:active {
+	background-color: #fc7d7d;
+}
+
+.text-align-center {
+	text-align: center;
+}
+
+.text-align-left {
+	text-align: left;
+}
+
+.overflow-hidden {
+	overflow: hidden;
+}
+
+.section {
+	padding: 100px 0;
+}
+
+.banner {
+	background-image: url("../img/banner/tron_lamborghini_aventador-1920x1080.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.block-align-center {
+	margin: 0 auto;
+}
+
+/*banner content*/
+.banner .block-align-center {
+	width: 973px;
+	margin-top: 150px;
+	margin-bottom: 150px;
+}
+
+/*left of banner*/
+.banner .left {
+	max-width: 450px;
+}
+
+/*ONE PAGE*/
+.banner h2 {
+	font-size: 72px;
+	padding: 0;
+	margin: 0;
+}
+
+/*IS ALL THAT YOU NEED*/
+.banner h3 {
+	font-size: 30px;
+	margin: 0;
+}
+
+/*left banner description*/
+.description {
+	font-size: 13px;
+}
+
+/*illustration image at right of banner*/
+.banner .right {
+	max-width: 470px;
+}
+
+/*margin from above content*/
+.banner .left .projex-button {
+	margin-top: 12px;
+}
+
+/*format for all button >> for <li> tag*/
+.projex-button {
+	display: inline-block;
+	margin: 10px 20px 0px 0px;
+	border: 3px solid #ff5959;
+	border-radius: 8px;
+	background-color: #ff5959;
+	font-size: 18px;
+	padding: 11px 35px;
+	color: #ffffff;
+}
+
+.projex-button:hover, .projex-button:active {
+	background-color: rgba(0,0,0,0);
+	color: inherit;
+}
+
+.font-color-black {
+	color: #000000;
+}
+
+.font-color-white {
+	color: #ffffff;
+}
+
+.section-title {
+	margin: 0;
+	padding: 0;
+	font-size: 30px;
+}
+
+.section-title p {
+	margin: 0;
+	padding: 0 0 45px;
+}
+
+.service-item {
+	width: 355px;
+}
+
+.service-item img {
+	margin-bottom: 10px;
+}
+
+.service-item h5, .contact h5 {
+	font-size: 24px;
+	margin: 0;
+	padding: 0;
+}
+
+.footer p {
+	padding-top: 50px;
+}
+
+.user-input-mess {
+	width: 568px;
+	margin-right: 35px;
+}
+
+.user-input-mess input, .user-input-mess textarea {
+	/*538=(568 - 2*(2:border + 13:padding))*/
+	width: 538px;
+	border-radius: 6px;
+	padding: 13px;
+}
+
+/*full_name & email*/
+.user-input-mess input {
+	margin: 0px 0px 15px;
+}
+
+/*CHEAT stretch message to bottom*/
+.user-input-mess textarea {
+	height: 160px;
+}
+
+.contact-info img {
+	margin-right: 10px;
+}
+
+.projex-block {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.block-2-cols {
+	width: 564px;
+}
+
+.block-3-cols {
+	width: 362px;
+}
+
+.block-4-cols {
+	width: 261px;
+}
+
+.portfolio .block-2-cols {
+	margin-bottom: 66px;
+}
+
+.portfolio li:hover, .portfolio li:hover {
+	/*z-index: -1;*/
+	/*border: 1px solid black;*/
+	background-color: #ff5959;
+	opacity: 50%;
+}
+
+.staff-img {
+	border: 3px solid rgba(0,0,0,0);
+}
+
+.staff-img:hover,  .staff-img:active {
+	border-radius: 100%;
+	border: 3px solid #ff5959;
+}
+
+.staffs .staff-name {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+.staffs .staff-position {
+	font-size: 16px;
+	margin: 0;
+}
+
+.staffs .social-icon {
+	margin: 0 auto;
+}
+
+.staffs .social-icon li {
+	display: inline-block;
+	margin: 0 2px;
+}
+
+.blog h6 {
+	margin: 20px 0;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.comment-icon {
+	margin-left: 30px;
+}
+
+.contact .arrow-map {
+	margin-right: 280px;
+}

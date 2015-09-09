@@ -1,0 +1,13 @@
+.price {
+  display: inline-block;
+  padding: 0 4px;
+}
+
+.price.old {
+  /*strike through*/
+}
+
+.price.new {
+  color: #f35050;
+  font-weight: bold;
+}

@@ -1,0 +1,49 @@
+/* 
+  layout.css
+    set layout for the page
+    - width, heigh of layout
+    - background color of layout
+     */
+
+/*avoid increasing size of block when bordering*/
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1190px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+body {
+  background-color: #f4f4f4;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.top-ad,
+.block-ad,
+.recommend,
+.new-product,
+.dis-count,
+.discovery,
+.beauti-world {
+  text-align: center;
+}
+
+.container .most-left,
+.list-inline .most-left {
+  padding-left: 0;
+}
+
+.container .most-right,
+.list-inline .most-right {
+  padding-right: 0;
+}

@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>divashop</title>
+
+    <!-- Bootstrap -->
+    <!-- <link href="css/base/normalize.css" rel="stylesheet"> -->
+    <!-- <link href="css/bootstrap.css" rel="stylesheet"> -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <div class="wrap-all">
+    <header>
+      <div class="header-top">
+        <div class="container">
+          <div class="nav-top clearfix">
+            <ul class="nav-top-fast list-inline pull-left">
+              <li class="dropdown">
+                <form action="#">
+                  <a href="#" title="">
+                    <span class="icon icon-key icon-sm1"></span>
+                    <span class="text link">Đăng nhập</span>
+                  </a>
+                  <div class="dropdown-block box-shadow login-fast">
+                    <div class="arrow arrow-up arrow-white arrow-sm1"></div>
+                    <div class="inner-login-fast">
+                      <div class="social">
+                        <span>Đăng nhập bằng</span>
+                        <ul class="list-inline">
+                          <li><a href="#" title=""><span class="icon icon-fb icon-sm3"></span></a></li>
+                          <li><a href="#" title=""><span class="icon icon-tw icon-sm3"></span></a></li>
+                          <li><a href="#" title=""><span class="icon icon-gg icon-sm3"></span></a></li>
+                        </ul>
+                      </div>
+                      <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Đăng nhập">
+                      </div>
+                      <div class="form-group">
+                        <input type="password" class="form-control" placeholder="Mật khẩu">
+                      </div>
+                      <div class="checkbox">
+                        <label>
+                          <input type="checkbox"><span>Nhớ mật khẩu</span> 
+                        </label>
+                        <a href="#" title=""><span class="link-default">Quên mật khẩu ?</span></a>
+                      </div>
+                      <div>
+                        <a href="#" title="" class="btn btn-diva btn-block">Đăng nhập</a>
+                      </div>
+                      <div class="register">
+                        <span>Bạn chưa là thành viên?</span>
+                        <a href="#" title=""><span class="link-default">Đăng ký ngay</span></a>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </li>
+              <li class="dropdown account">
+                <a href="#" title="">
+                  <span class="icon icon-user icon-sm1"></span>
+                  <span class="text link">Tài khoản</span>
+                </a>
+                <div class="dropdown-block box-shadow acc-fast">
+                  <div class="arrow arrow-up arrow-white arrow-sm1"></div>
+                  <ul class="list-unstyled">
+                    <li>
+                      <a href="#" title="">
+                        <span class="icon icon-history icon-sm0"></span>
+                        <span class="text link">Lịch sử đơn hàng</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" title="">
+                        <span class="icon icon-location icon-sm0"></span>
+                        <span class="text link">Địa chỉ nhận hàng</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" title="">
+                        <span class="icon icon-note icon-sm0"></span>
+                        <span class="text link">Quản lý trả hàng</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <a href="#" title="">
+                  <span class="icon icon-heart icon-sm1"></span>
+                  <span class="text link">Sản phẩm yêu thích</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" title="">
+                  <span class="icon icon-mini-cart icon-sm1"></span>
+                  <span class="text link">Đặt hàng tự động</span>
+                </a>
+              </li>
+            </ul>
+            <ul class="contact-top list-inline pull-right">
+              <li>
+                <a href="#" title="">
+                  <span class="icon icon-mini-phone icon-sm1"></span>
+                  <span class="text link">1988 354 345</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" title="">
+                  <span class="icon icon-mailbox icon-sm1"></span>
+                  <span class="text link">Trợ giúp</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <section class="block-ad">
+        <a href="#" title=""><img src="./image/upload/ad-1.jpg" alt="ad-1"></a>
+      </section>
+      <div class="header-main">
+        <div class="container">
+          <div class="inner-header-main">
+            <div class="col-lg-3">
+              <div class="form-group search-box">
+                <input type="text" class="form-control" placeholder="Tìm sản phẩm">
+                <a href="#" class="btn btn-none"><span class="glyphicon glyphicon-search" aria-hidden="true"></a>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <h1 class="logo">
+                <a href="#" title="divashop"><img src="./image/logo.png" alt="divashop"></a>
+              </h1>
+            </div>
+            <div class="col-lg-6 menu-cart">
+              <ul class="list-inline pull-right">
+                <li class="shopping-cart dropdown">
+                  <a href="#" title="">
+                    <span class="icon icon-cart icon-sm2"></span>
+                    <span class="cart-quantity">2</span>
+                    <span class="text link">GIỎ<br>HÀNG</span>
+                  </a>
+                  <div class="cart-details dropdown-block box-shadow">
+                    <div class="arrow arrow-up arrow-gray arrow-sm2"></div>
+                    <div class="arrow arrow-up arrow-white arrow-sm2"></div>
+                    <ul class="list-unstyled list-item">
+                      <li class="item">
+                        <div class="wrap-item clearfix">
+                          <div class="col-lg-3">
+                            <a href="#" alt=""><img src="./image/upload/product-thumbnail-1.jpg" alt=""></a>
+                          </div>
+                          <div class="product-tag col-lg-7">
+                            <h4>
+                              <a href="#" title="SEPHORA FAVORITES The Leading Man Cologne">
+                                <span class="text link">
+                                  SEPHORA FAVORITES The Leading Man Cologne
+                                </span>
+                              </a>
+                            </h4>
+                            <p><span class="price price-old">1.000.000 đ</span></p>
+                            <p><span class="price price-new">500.000 đ</span></p>
+                          </div>
+                          <div class="col-lg-1">
+                            <span class="quantity">x1</span>
+                          </div>
+                          <div class="col-lg-1">
+                            <span class="icon icon-trash icon-sm0"></span>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="item">
+                        <div class="wrap-item clearfix">
+                          <div class="col-lg-3">
+                            <a href="#" alt=""><img src="./image/upload/product-thumbnail-2.jpg" alt=""></a>
+                          </div>
+                          <div class="product-tag col-lg-7">
+                            <h4>
+                              <a href="#" title="SEPHORA FAVORITES The Leading Man Cologne">
+                                <span class="text link">
+                                  SEPHORA FAVORITES The Leading Man Cologne
+                                </span>
+                              </a>
+                            </h4>
+                            <p><span class="price price-old">1.000.000 đ</span></p>
+                            <p><span class="price price-new">500.000 đ</span></p>
+                          </div>
+                          <div class="col-lg-1">
+                            <span class="quantity">x1</span>
+                          </div>
+                          <div class="col-lg-1">
+                            <span class="icon icon-trash icon-sm0"></span>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                    <div class="sum clearfix">
+                      <div class="wrap-sum pull-right">
+                        <span>Tổng cộng</span>
+                        <span class="price">1.000.000 đ</span>
+                      </div>
+                    </div>
+                    <div class="clearfix">
+                      <div class="col-lg-6">
+                        <a href="#" title=""><span class="btn btn-noactive link btn-block">Xem giỏ hàng</span></a>
+                      </div>
+                      <div class="col-lg-6">
+                        <a href="#" title=""><span class="btn btn-active btn-block">Thanh toán</span></a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <a href="#" title="">
+                    <span class="icon icon-truck icon-sm2"></span>
+                    <span class="text link">GIAO HÀNG<br>MIỄN PHÍ</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" title="">
+                    <span class="icon icon-clock icon-sm2"></span>
+                    <span class="text link">ĐỔI TRẢ<br>MIỄN PHÍ</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" title="">
+                    <span class="icon icon-box icon-sm2"></span>
+                    <span class="text link">HÀNG MẪU<br>MIỄN PHÍ</span>
+                  </a>
+                </li>
+                <li class="separate">
+                  <a href="#" title="">
+                    <span class="text link">TẶNG 50 %<br>KHI MUA HÀNG</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="">
+        <div class="container">
+          <nav class="nav-main mega-menu-anchor">
+            <ul class="nav nav-bar">
+              <li class="category category-brand">
+                <a href="#"><span class="text link">THƯƠNG HIỆU</span></a>
+                <div class="container mega-menu mega-menu-brand">
+                  <ul class="list-inline list-unstyled">
+                    <li class="brand-filter-all active"><a href="#" title=""><span class="text link">TẤT CẢ</span></a></li>
+                    <li class="brand-filter-a"><a href="#" title=""><span class="text link">A</span></a></li>
+                    <li class="brand-filter-b"><a href="#" title=""><span class="text link">B</span></a></li>
+                    <li class="brand-filter-c"><a href="#" title=""><span class="text link">C</span></a></li>
+                    <li class="brand-filter-d"><a href="#" title=""><span class="text link">D</span></a></li>
+                    <li class="brand-filter-e"><a href="#" title=""><span class="text link">E</span></a></li>
+                    <li class="brand-filter-f"><a href="#" title=""><span class="text link">F</span></a></li>
+                    <li class="brand-filter-g"><a href="#" title=""><span class="text link">G</span></a></li>
+                    <li class="brand-filter-h"><a href="#" title=""><span class="text link">H</span></a></li>
+                    <li class="brand-filter-i"><a href="#" title=""><span class="text link">I</span></a></li>
+                    <li class="brand-filter-j"><a href="#" title=""><span class="text link">J</span></a></li>
+                    <li class="brand-filter-k"><a href="#" title=""><span class="text link">K</span></a></li>
+                    <li class="brand-filter-l"><a href="#" title=""><span class="text link">L</span></a></li>
+                    <li class="brand-filter-m"><a href="#" title=""><span class="text link">M</span></a></li>
+                    <li class="brand-filter-n"><a href="#" title=""><span class="text link">N</span></a></li>
+                    <li class="brand-filter-o"><a href="#" title=""><span class="text link">O</span></a></li>
+                    <li class="brand-filter-p"><a href="#" title=""><span class="text link">P</span></a></li>
+                    <li class="brand-filter-q"><a href="#" title=""><span class="text link">Q</span></a></li>
+                    <li class="brand-filter-r"><a href="#" title=""><span class="text link">R</span></a></li>
+                    <li class="brand-filter-s"><a href="#" title=""><span class="text link">S</span></a></li>
+                    <li class="brand-filter-t"><a href="#" title=""><span class="text link">T</span></a></li>
+                    <li class="brand-filter-u"><a href="#" title=""><span class="text link">U</span></a></li>
+                    <li class="brand-filter-v"><a href="#" title=""><span class="text link">V</span></a></li>
+                    <li class="brand-filter-w"><a href="#" title=""><span class="text link">W</span></a></li>
+                    <li class="brand-filter-x"><a href="#" title=""><span class="text link">X</span></a></li>
+                    <li class="brand-filter-y"><a href="#" title=""><span class="text link">Y</span></a></li>
+                    <li class="brand-filter-z"><a href="#" title=""><span class="text link">Z</span></a></li>
+                  </ul>
+                  <div class="clearfix brand-filter-block filter-all active">
+                    <div class="col-lg-8 group-link">
+                      <h3><a href="" title=""><span class="link">TẤT CẢ</span></a></h3>
+                      <ul class="list-unstyled">
+                        <li><a href="#" title=""><span class="link">Acqua Di Parma</span></a></li>
+                        <li><a href="#" title=""><span class="link">AERIN</span></a></li>
+                        <li><a href="#" title=""><span class="link">Agave</span></a></li>
+                        <li><a href="#" title=""><span class="link">Algenist</span></a></li>
+                        <li><a href="#" title=""><span class="link">ALTERNA Haircare</span></a></li>
+                        <li><a href="#" title=""><span class="link">Amazing Cosmetics</span></a></li>
+                        <li><a href="#" title=""><span class="link">amika</span></a></li>
+                        <li><a href="#" title=""><span class="link">AmorePacific</span></a></li>
+                        <li><a href="#" title=""><span class="link">Anastasia Beverly Hills</span></a></li>
+                        <li><a href="#" title=""><span class="link">Andre Walker Hair</span></a></li>
+                        <li><a href="#" title=""><span class="link">Atelier Cologne</span></a></li>
+                        <li><a href="#" title=""><span class="link">Acqua Di Parma</span></a></li>
+                        <li><a href="#" title=""><span class="link">AERIN</span></a></li>
+                        <li><a href="#" title=""><span class="link">Agave</span></a></li>
+                        <li><a href="#" title=""><span class="link">Algenist</span></a></li>
+                        <li><a href="#" title=""><span class="link">ALTERNA Haircare</span></a></li>
+                        <li><a href="#" title=""><span class="link">Amazing Cosmetics</span></a></li>
+                        <li><a href="#" title=""><span class="link">amika</span></a></li>
+                        <li><a href="#" title=""><span class="link">AmorePacific</span></a></li>
+                        <li><a href="#" title=""><span class="link">Anastasia Beverly Hills</span></a></li>
+                        <li><a href="#" title=""><span class="link">Andre Walker Hair</span></a></li>
+                        <li><a href="#" title=""><span class="link">Atelier Cologne</span></a></li>
+                        <li><a href="#" title=""><span class="link">Acqua Di Parma</span></a></li>
+                        <li><a href="#" title=""><span class="link">AERIN</span></a></li>
+                        <li><a href="#" title=""><span class="link">Agave</span></a></li>
+                        <li><a href="#" title=""><span class="link">Algenist</span></a></li>
+                        <li><a href="#" title=""><span class="link">ALTERNA Haircare</span></a></li>
+                        <li><a href="#" title=""><span class="link">Amazing Cosmetics</span></a></li>
+                        <li><a href="#" title=""><span class="link">amika</span></a></li>
+                        <li><a href="#" title=""><span class="link">AmorePacific</span></a></li>
+                        <li><a href="#" title=""><span class="link">Anastasia Beverly Hills</span></a></li>
+                        <li><a href="#" title=""><span class="link">Andre Walker Hair</span></a></li>
+                        <li><a href="#" title=""><span class="link">Atelier Cologne</span></a></li>
+                        <li><a href="#" title=""><span class="link">Acqua Di Parma</span></a></li>
+                        <li><a href="#" title=""><span class="link">AERIN</span></a></li>
+                        <li><a href="#" title=""><span class="link">Agave</span></a></li>
+                        <li><a href="#" title=""><span class="link">Algenist</span></a></li>
+                        <li><a href="#" title=""><span class="link">ALTERNA Haircare</span></a></li>
+                        <li><a href="#" title=""><span class="link">Amazing Cosmetics</span></a></li>
+                      </ul>
+                    </div>
+                    <div class="col-lg-4">
+                      <a href="#" title=""><img src="./image/upload/nav-illus-1.jpg" class="illus"></a>
+                      <a href="#" title=""><img src="./image/upload/nav-illus-2.jpg" class="illus"></a>
+                    </div>
+                  </div>
+                  <div class="clearfix brand-filter-block filter-a">
+                    <div class="col-lg-8 group-link">
+                      <h3><a href="" title=""><span class="link">A</span></a></h3>
+                      <ul class="list-unstyled">
+                        <li><a href="#" title=""><span class="link">Acqua Di Parma</span></a></li>
+                        <li><a href="#" title=""><span class="link">AERIN</span></a></li>
+                        <li><a href="#" title=""><span class="link">Agave</span></a></li>
+                        <li><a href="#" title=""><span class="link">Algenist</span></a></li>
+                        <li><a href="#" title=""><span class="link">ALTERNA Haircare</span></a></li>
+                        <li><a href="#" title=""><span class="link">Amazing Cosmetics</span></a></li>
+                        <li><a href="#" title=""><span class="link">amika</span></a></li>
+                        <li><a href="#" title=""><span class="link">AmorePacific</span></a></li>
+                        <li><a href="#" title=""><span class="link">Anastasia Beverly Hills</span></a></li>
+                        <li><a href="#" title=""><span class="link">Andre Walker Hair</span></a></li>
+                        <li><a href="#" title=""><span class="link">Atelier Cologne</span></a></li>
+                        <li><a href="#" title=""><span class="link">Acqua Di Parma</span></a></li>
+                        <li><a href="#" title=""><span class="link">AERIN</span></a></li>
+                        <li><a href="#" title=""><span class="link">Agave</span></a></li>
+                        <li><a href="#" title=""><span class="link">Algenist</span></a></li>
+                        <li><a href="#" title=""><span class="link">ALTERNA Haircare</span></a></li>
+                        <li><a href="#" title=""><span class="link">Amazing Cosmetics</span></a></li>
+                        <li><a href="#" title=""><span class="link">amika</span></a></li>
+                        <li><a href="#" title=""><span class="link">AmorePacific</span></a></li>
+                        <li><a href="#" title=""><span class="link">Anastasia Beverly Hills</span></a></li>
+                        <li><a href="#" title=""><span class="link">Andre Walker Hair</span></a></li>
+                        <li><a href="#" title=""><span class="link">Atelier Cologne</span></a></li>
+                        <li><a href="#" title=""><span class="link">Acqua Di Parma</span></a></li>
+                        <li><a href="#" title=""><span class="link">AERIN</span></a></li>
+                        <li><a href="#" title=""><span class="link">Agave</span></a></li>
+                        <li><a href="#" title=""><span class="link">Algenist</span></a></li>
+                        <li><a href="#" title=""><span class="link">ALTERNA Haircare</span></a></li>
+                        <li><a href="#" title=""><span class="link">Amazing Cosmetics</span></a></li>
+                        <li><a href="#" title=""><span class="link">amika</span></a></li>
+                        <li><a href="#" title=""><span class="link">AmorePacific</span></a></li>
+                        <li><a href="#" title=""><span class="link">Anastasia Beverly Hills</span></a></li>
+                        <li><a href="#" title=""><span class="link">Andre Walker Hair</span></a></li>
+                        <li><a href="#" title=""><span class="link">Atelier Cologne</span></a></li>
+                        <li><a href="#" title=""><span class="link">Acqua Di Parma</span></a></li>
+                        <li><a href="#" title=""><span class="link">AERIN</span></a></li>
+                        <li><a href="#" title=""><span class="link">Agave</span></a></li>
+                        <li><a href="#" title=""><span class="link">Algenist</span></a></li>
+                        <li><a href="#" title=""><span class="link">ALTERNA Haircare</span></a></li>
+                        <li><a href="#" title=""><span class="link">Amazing Cosmetics</span></a></li>
+                      </ul>
+                    </div>
+                    <div class="col-lg-4">
+                      <a href="#" title=""><img src="./image/upload/nav-illus-1.jpg" class="illus"></a>
+                      <a href="#" title=""><img src="./image/upload/nav-illus-2.jpg" class="illus"></a>
+                    </div>
+                  </div>
+                  <div class="clearfix brand-filter-block filter-b">
+                    <div class="col-lg-8 group-link">
+                      <h3><a href="" title=""><span class="link">B</span></a></h3>
+                      <ul class="list-unstyled">
+                        <li><a href="#" title=""><span class="link">B brand</span></a></li>
+                        <li><a href="#" title=""><span class="link">B brand</span></a></li>
+                      </ul>
+                    </div>
+                    <div class="col-lg-4">
+                      <!-- for illustration -->
+                    </div>
+                  </div>
+                  <div class="clearfix brand-filter-block filter-c">
+                    <div class="col-lg-8 group-link">
+                      <h3><a href="" title=""><span class="link">C</span></a></h3>
+                      <ul class="list-unstyled">
+                        <li><a href="#" title=""><span class="link">C brand</span></a></li>
+                        <li><a href="#" title=""><span class="link">C brand</span></a></li>
+                      </ul>
+                    </div>
+                    <div class="col-lg-4">
+                      <!-- for illustration -->
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="category category-skin">
+                <a href="#"><span class="text link">DƯỠNG DA</span></a>
+                <div class="container mega-menu mega-menu-skin">
+                  <div class="clearfix skin-block">
+                    <div class="col-lg-8 group-link">
+                      <div class="col-lg-3">
+                        <div class="group-link-col">
+                          <h3><a href="" title=""><span class="link">MẶT</span></a></h3>
+                          <ul class="list-unstyled">
+                            <li><a href="#" title=""><span class="link">Rửa mặt</span></a></li>
+                            <li><a href="#" title=""><span class="link">Tẩy trang</span></a></li>
+                            <li><a href="#" title=""><span class="link">Lotion</span></a></li>
+                            <li><a href="#" title=""><span class="link">Mặt nạ</span></a></li>
+                            <li><a href="#" title=""><span class="link">Tẩy tế bào chết</span></a></li>
+                            <li><a href="#" title=""><span class="link">Tinh chất</span></a></li>
+                            <li><a href="#" title=""><span class="link">Kem dưỡng</span></a></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-lg-3">
+                        <div class="group-link-col">
+                          <h3><a href="" title=""><span class="link">MẮT</span></a></h3>
+                          <ul class="list-unstyled">
+                            <li><a href="#" title=""><span class="link">Rửa mặt</span></a></li>
+                            <li><a href="#" title=""><span class="link">Tẩy trang</span></a></li>
+                            <li><a href="#" title=""><span class="link">Lotion</span></a></li>
+                          </ul>
+                        </div>
+                        <div class="group-link-col">
+                          <h3><a href="" title=""><span class="link">MÔI</span></a></h3>
+                          <ul class="list-unstyled">
+                            <li><a href="#" title=""><span class="link">Rửa mặt</span></a></li>
+                            <li><a href="#" title=""><span class="link">Tẩy trang</span></a></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-lg-3">
+                        <div class="group-link-col">
+                          <h3><a href="" title=""><span class="link">CƠ THỂ</span></a></h3>
+                          <ul class="list-unstyled">
+                            <li><a href="#" title=""><span class="link">Rửa mặt</span></a></li>
+                            <li><a href="#" title=""><span class="link">Tẩy trang</span></a></li>
+                            <li><a href="#" title=""><span class="link">Lotion</span></a></li>
+                          </ul>
+                        </div>
+                        <div class="group-link-col">
+                          <h3><a href="" title=""><span class="link">CÔNG CỤ</span></a></h3>
+                          <ul class="list-unstyled">
+                            <li><a href="#" title=""><span class="link">Rửa mặt</span></a></li>
+                            <li><a href="#" title=""><span class="link">Tẩy trang</span></a></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-lg-3">
+                        <div class="group-link-col">
+                          <h3><a href="" title=""><span class="link">DÀNH CHO NAM</span></a></h3>
+                          <ul class="list-unstyled">
+                            <li><a href="#" title=""><span class="link">Rửa mặt</span></a></li>
+                            <li><a href="#" title=""><span class="link">Tẩy trang</span></a></li>
+                            <li><a href="#" title=""><span class="link">Lotion</span></a></li>
+                            <li><a href="#" title=""><span class="link">Mặt nạ</span></a></li>
+                            <li><a href="#" title=""><span class="link">Tẩy tế bào chết</span></a></li>
+                            <li><a href="#" title=""><span class="link">Tinh chất</span></a></li>
+                            <li><a href="#" title=""><span class="link">Kem dưỡng</span></a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <a href="#" title=""><img src="./image/upload/nav-illus-1.jpg" class="illus"></a>
+                      <a href="#" title=""><img src="./image/upload/nav-illus-2.jpg" class="illus"></a>
+                    </div>
+                </div>
+              </li>
+              <li class="category category-makeup">
+                <a href="#"><span class="text link">TRANG ĐIỂM</span></a>
+                <!-- <div class="container mega-menu mega-menu-makeup">
+                  asdasds
+                </div> -->
+              </li>
+              <li class="category category-perfume">
+                <a href="#"><span class="text link">NƯỚC HOA</span></a>
+                <!-- <div class="container mega-menu mega-menu-perfume">
+                  kjhoiuewyrewr
+                </div> -->
+              </li>
+              <li class="category category-body">
+                <a href="#"><span class="text link">DẦU TẮM &amp; DƯỠNG THỂ</span></a>
+                <!-- <div class="container mega-menu mega-menu-body">
+                  asdasds
+                </div> -->
+              </li>
+              <li class="category category-hair">
+                <a href="#"><span class="text link">CHĂM SÓC TÓC</span></a>
+                <!-- <div class="container mega-menu mega-menu-hair">
+                  kjhoiuewyrewr
+                </div> -->
+              </li>
+              <li class="category category-accessory">
+                <a href="#"><span class="text link">PHỤ KIỆN THỜI TRANG</span></a>
+                <!-- <div class="container mega-menu mega-menu-accessory">
+                  asdasds
+                </div> -->
+              </li>
+              <li class="category category-trend">
+                <a href="#"><span class="text link">TƯ VẤN XU HƯỚNG</span></a>
+                <div class="container mega-menu mega-menu-trend">
+                  <div class="col-lg-3">
+                    <h3><a href="#" title=""><span class="text link">TƯ VẤN LÀM ĐẸP</span></a></h3>
+                    <a href="#" title=""><img src="./image/upload/nav-illus-3.jpg" class="illus"></a>
+                    <div><span class="btn btn-diva">Đọc thêm</span></div>
+                  </div>
+                  <div class="col-lg-3">
+                    <h3><a href="#" title=""><span class="text link">XU HƯỚNG MỚI</span></a></h3>
+                    <a href="#" title=""><img src="./image/upload/nav-illus-4.jpg" class="illus"></a>
+                    <div><span class="btn btn-diva">Đọc thêm</span></div>
+                  </div>
+                  <div class="col-lg-3">
+                    <h3><a href="#" title=""><span class="text link">ĐÁNH GIÁ SẢN PHẨM</span></a></h3>
+                    <a href="#" title=""><img src="./image/upload/nav-illus-5.jpg" class="illus"></a>
+                    <div><span class="btn btn-diva">Đọc thêm</span></div>
+                  </div>
+                  <div class="col-lg-3 group-link">
+                    <h3><a href="#" title=""><span class="text link">KHÁM PHÁ THÊM</span></a></h3>
+                    <ul class="list-unstyled">
+                      <li><a href="#" title=""><span class="link">Bí quyết trang điểm</span></a></li>
+                      <li><a href="#" title=""><span class="link">Đẹp như sao</span></a></li>
+                      <li><a href="#" title=""><span class="link">Thương hiệu mỹ phẩm</span></a></li>
+                      <li><a href="#" title=""><span class="link">Khỏe và đẹp</span></a></li>
+                      <li><a href="#" title=""><span class="link">Chăm sóc da</span></a></li>
+                      <li><a href="#" title=""><span class="link">Diva tỏa sáng</span></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <div class="main-content">
+      
+    </div>
+    <footer>
+      
+    </footer>
+  </div>
+  </body>
+</html>

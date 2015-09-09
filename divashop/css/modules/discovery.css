@@ -1,0 +1,27 @@
+.stars {
+  color: #74757a;
+  font-size: 18px;
+  display: inline-block;
+  background-color: #f4f4f4;
+  padding: 0 20px;
+}
+
+.stars .small {
+  font-size: 0.75em;
+}
+
+.discovery .decorate-line {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.hor-line {
+  height: 2px;
+  background-color: #ccc;
+  margin: 10px auto;
+}
+
+.discovery .more-btn {
+  font-size: 14px;
+  font-weight: bold;
+}

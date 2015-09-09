@@ -1,0 +1,219 @@
+
+
+@media only screen and (orientation: landscape) {
+  .row-l-1 {height: 12.5%;}
+  .row-l-2 {height: 25%;}
+  .row-l-3 {height: 37.5%;}
+  .row-l-4 {height: 50%;}
+  .row-l-5 {height: 62.5%;}
+  .row-l-6 {height: 75%;}
+  .row-l-7 {height: 87.5%;}
+  .row-l-8 {height: 100%}
+
+/*divide width to 12 columns*/
+  .col-l-1 {width: 8.33%;}
+  .col-l-2 {width: 16.66%;}
+  .col-l-3 {width: 25%;}
+  .col-l-4 {width: 33.33%;}
+  .col-l-5 {width: 41.66%;}
+  .col-l-6 {width: 50%;}
+  .col-l-7 {width: 58.33%;}
+  .col-l-8 {width: 66.66%;}
+  .col-l-9 {width: 75%;}
+  .col-l-10 {width: 83.33%;}
+  .col-l-11 {width: 91.66%;}
+  .col-l-12 {width: 100%;}
+
+
+  .left-l {
+    float: left;
+  }
+
+  .right-l {
+    float: right;
+  }
+
+  .p-white {
+    text-align: left;
+  }
+
+  .p-yellow {
+    text-align: right;
+  }
+
+  body {
+    font-size: 5vh;
+  }
+
+  .score {
+    font-size: 18vh;
+  }
+
+  .inning {
+    font-size: 12vh;
+  }
+}
+
+@media only screen and (orientation: portrait) {
+  .row-p-1 {height: 8.33%;}
+  .row-p-2 {height: 16.66%;}
+  .row-p-3 {height: 25%;}
+  .row-p-4 {height: 33.33%;}
+  .row-p-5 {height: 41.66%;}
+  .row-p-6 {height: 50%;}
+  .row-p-7 {height: 58.33%;}
+  .row-p-8 {height: 66.66%;}
+  .row-p-9 {height: 75%;}
+  .row-p-10 {height: 83.33%;}
+  .row-p-11 {height: 91.66%;}
+  .row-p-12 {height: 100%;}
+
+/*divide width to 12 columns*/
+  .col-p-1 {width: 8.33%;}
+  .col-p-2 {width: 16.66%;}
+  .col-p-3 {width: 25%;}
+  .col-p-4 {width: 33.33%;}
+  .col-p-5 {width: 41.66%;}
+  .col-p-6 {width: 50%;}
+  .col-p-7 {width: 58.33%;}
+  .col-p-8 {width: 66.66%;}
+  .col-p-9 {width: 75%;}
+  .col-p-10 {width: 83.33%;}
+  .col-p-11 {width: 91.66%;}
+  .col-p-12 {width: 100%;}
+
+  .left-p {
+    float: left;
+  }
+
+  .right-p {
+    float: right;
+  }
+
+  .p-white {
+    text-align: left;
+  }
+
+  .p-yellow {
+    text-align: left;
+  }
+
+  body {
+    font-size: 5vw;
+  }
+
+  .score {
+    font-size: 18vw;
+  }
+
+  .inning {
+    font-size: 12vw;
+  }
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  vertical-align: middle;
+  text-align: center;
+  vertical-align: middle;
+  font-family: Verdana, Geneva, sans-serif;
+  line-height: 2.2em;
+}
+
+.full-window {
+  width: 100vw;
+  height: 100vh;
+  background-color: blue;
+}
+
+section {
+  overflow: hidden;
+}
+
+
+section img {
+  width: 100%;
+  height: 100%;
+}
+
+section.p-white,
+.p-white .icon-turn {
+  background-color: white;
+}
+
+section.p-yellow,
+.p-yellow .icon-turn {
+  background-color: yellow;
+}
+
+
+.icon-turn {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  visibility: hidden;
+}
+
+.match-n-time {
+  color: #fff;
+}
+
+.name {
+  padding: 0 1.5em;
+}
+
+.button {
+  background-color: gray;
+}
+
+.count-down {
+  background-color: red;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+.stats {
+  padding: 0 0.4em;
+  color: #fff;
+}
+
+.stats span {
+  font-weight: bold;
+  padding: 0 0.5em 0 0.2em;
+}
+
+.p-white.stats span {
+  color: #fff;
+}
+
+
+.p-yellow.stats span {
+  color: yellow;
+}
+
+.score,
+.inning {
+  line-height: 1.4em;
+  text-align: center;
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-weight: bold;
+}
+
+.p-white .score {
+  background-color: white;
+}
+
+.p-yellow .score {
+  background-color: yellow;
+}
+
+.inning {
+  line-height: 2.3em;
+}

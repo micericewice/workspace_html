@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>SCORE BOARD</title>
+
+    <!-- Bootstrap -->
+    <!-- <link href="css/base/normalize.css" rel="stylesheet"> -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!-- fit the viewport of device -->
+    <div class="full-window">
+      <!-- [1/8vh] tournament:match & time -->
+      <section class="row-l-1 row-p-3 match-n-time">
+        <div class="col-l-2 row-l-8 left-l col-p-12 row-p-4 left-p button">
+          <span class="">Setup</span>
+        </div>
+        <div class="col-l-7 row-l-8 left-l col-p-12 row-p-4 left-p">
+          <span class="tour">PORTO</span>
+          <span class="round">Semi-final</span>
+        </div>
+        <div class="col-l-3 row-l-8 right-l col-p-12 row-p-4 right-p">
+          <span id="time">00:00:00</span>
+        </div>
+      </section>
+      <!-- [1/8vh] player1: national flag & name -->
+      <section class="row-l-1 row-p-1 p-white">
+        <div class="col-l-2 row-l-8 left-l col-p-3 row-p-12 left-p flag">
+          <img class="" src="image/upload/flag-1.gif" alt="">
+        </div>
+        <div class="col-l-10 row-l-8 left-l col-p-9 row-p-12 left-p">
+          <span class="name" id="name1">Player WHITE</span>
+        </div>
+      </section>
+      <!-- [4/8vh] main board-->
+      <section class="col-l-12 row-l-4     col-p-12 row-p-6">
+        <!-- player 1's portrait -->
+        <section class="col-l-2 row-l-8 left-l col-p-3 row-p-6 left-p portrait p-white">
+          <img class="col-l-12" src="image/upload/player-x.jpg" alt="P1">
+        </section>
+        <!-- score field -->
+        <section class="col-l-8 row-l-8 left-l col-p-9 row-p-12 right-p">
+          <!-- icon-turn -->
+          <div class="col-l-2 row-l-2 left-l col-p-2 row-p-2 left-p p-white">
+            <div class="icon-turn" id="turn1"></div>
+          </div>
+          <!-- players 1's statistic -->
+          <div class="col-l-10 row-l-2 left-l col-p-4 row-p-6 left-p stats p-white">
+            H.R.<span id="hr1">0</span>
+            Avg.<span id="avg1">0.000</span>
+            Run<span id="run1">0</span>
+          </div>
+          <!-- section Pts & INNs -->
+          <section class="col-l-12 row-l-4 left-l col-p-5 row-p-12 right-p">
+            <!-- player 1's pts -->
+            <div class="col-l-4 row-l-12 left-l col-p-12 row-p-4 right-p p-white">
+              <span class="score" id="pts1">0</span>
+            </div>
+            <!-- INNINGs -->
+            <div class="col-l-4 row-l-12 left-l col-p-12 row-p-4 right-p">
+              <span class="inning" id="inns">0</span>
+            </div>
+            <!-- p2's pts -->
+            <div class="col-l-4 row-l-12 left-l col-p-12 row-p-4 right-p p-yellow">
+              <span class="score" id="pts2">0</span>
+            </div>
+          </section>
+          <!-- player 2's icon-turn -->
+          <div class="col-l-2 row-l-2 right-l col-p-2 row-p-2 left-p p-yellow">
+            <div class="icon-turn" id="turn2"></div>
+          </div>
+          <!-- p2's stats -->
+          <div class="col-l-10 row-l-2 left-l col-p-4 row-p-6 left-p stats p-yellow">
+            H.R.<span id="hr2">0</span>
+            Avg.<span id="avg2">0.000</span>
+            Run<span id="run2">0</span>
+          </div>
+        </section>
+        <!-- END score field -->
+        <!-- player 2's portrait -->
+        <section class="col-l-2 row-l-8 right-l col-p-3 row-p-6 left-p portrait p-yellow">
+          <img class="col-l-12" src="image/upload/player-x.jpg" alt="P2">
+        </section>
+      </section>
+      <!-- END main board -->
+      <!-- [1/8vh] player2-->
+      <section class="row-l-1 row-p-1 player p-yellow">
+        <div class="col-l-2 row-l-8 right-l col-p-3 row-p-12 left-p flag">
+          <img class="" src="image/upload/flag-2.gif" alt="">
+        </div>
+        <div class="col-l-10 row-l-8 right-l col-p-9 row-p-12 left-p name">
+          <span class="" id="name2">Player YELLOW</span>
+        </div>
+      </section>
+      <!-- [1/8vh] count-down clock (as bar)-->
+      <section class="row-l-1 row-p-1 count-down">
+        <span class="" id="cd-secs">40</span>
+      </section>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/billard.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- <script src="js/bootstrap.min.js"></script> -->
+  </body>
+</html>

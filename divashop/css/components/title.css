@@ -1,0 +1,26 @@
+.title {
+  /*display: inline-block;*/
+  padding: 20px 0;
+}
+
+
+.decorate-line {
+  position: relative;
+}
+
+/*add the decorating line*/
+.decorate-line::before {
+  content: '';
+  width: 100%;
+  border-top: 1px solid #ccc;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  z-index: -1;
+}
+
+.title span {
+  padding: 0 20px;
+  display: inline-block;
+  background-color: #f4f4f4;
+}

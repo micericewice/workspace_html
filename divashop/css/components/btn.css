@@ -1,0 +1,28 @@
+.more-btn {
+  text-decoration: none;
+  color: inherit;
+  
+  display: inline-block;
+
+  padding-left: 15px;
+  background-color: #f4f4f4;
+}
+
+.more-btn::after {
+  content: '';
+  display: inline-block;
+  margin-left: 0.5em;
+  width: 15px;
+  height: 15px;
+
+  /*more icon*/
+  background: url("../../image/upload/icon-sprite.png") -120px -120px;
+}
+
+.more-right {
+  font-size: 12px;
+  line-height: 2.3em;
+  font-weight: normal;
+
+  float: right;
+}

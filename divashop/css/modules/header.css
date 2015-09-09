@@ -1,0 +1,123 @@
+/*
+  style for the header
+  */
+
+/*================== top-header =================*/
+
+/*only the black bar (not include navigation*/
+.top-header {
+  background-color: #000;
+  color: #fff;
+  /*font*/
+  font-family: 'Arial', sans-serif;
+  font-size: 13px;
+}
+
+.top-header li {
+  padding: 6px 12px;
+}
+
+/*===================== top advertisement ========*/
+/*moved to layout.css*/
+/*.top-ad {
+  text-align: center;
+}
+*/
+/*================== main header ========================*/
+
+/*input search*/
+.input-search {
+  position: relative;
+}
+
+.input-search input {
+  width: 100%;
+  font-size: 13px;
+  line-height: 2em;
+  padding: 0 8px;
+}
+
+.icon-search {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  position: absolute;
+  z-index: 10;
+  right: 0;
+  bottom: 0.1em;
+}
+
+/*logo*/
+.main-header h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  text-align: center;
+}
+
+/*user navigation*/
+.user-nav {
+  font-size: 10.2px;
+  letter-spacing: 0.1em;
+  line-height: 1.45em;
+  color: #484848;
+}
+
+.user-nav li {
+  padding: 6px 16px;
+}
+
+.user-nav span {
+  display: inline-block;
+}
+
+/*number of item in cart*/
+.cart-num-holder {
+  position: relative;
+}
+
+.cart-number {
+  font-size: 12px;
+  position: absolute;
+  top: -0.1em;
+  left: 1em;
+  border-radius: 50%;
+  background-color: #f35050;
+  color: white;
+  width: 1.8em;
+  height: 1.8em;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 1.8em;
+}
+
+/*to make the cart count num fully observed*/
+/*add the same for input-serch & logo
+for consistency*/
+.main-header ul.list-inline,
+.input-search,
+.logo {
+  padding: 4px 0;
+}
+
+/*add the left boder for 'TANG 50% xxx'*/
+.user-nav .most-right {
+  border-left: 1px solid #ccc;
+}
+
+/*finally: add common padding and the bottom boder*/
+.main-header .container {
+  padding: 26px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+/*stype the drop down cart*/
+.cart-drop-down {
+  width: 410px;
+  background-color: #fff;
+  position: absolute;
+  border: 1px solid #ccc;
+  left: -260px;
+}

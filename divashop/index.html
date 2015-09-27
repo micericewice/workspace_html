@@ -2,8 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>divashop</title>
 
@@ -11,6 +11,9 @@
     <!-- <link href="css/base/normalize.css" rel="stylesheet"> -->
     <!-- <link href="css/bootstrap.css" rel="stylesheet"> -->
     <link href="css/style.css" rel="stylesheet">
+
+    <!-- font face -->
+    <link href='//fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -22,101 +25,101 @@
   <body>
   <div class="wrap-all">
     <header>
-      <div class="header-top">
+      <section class="header-top">
         <div class="container">
           <div class="nav-top clearfix">
-            <ul class="nav-top-fast list-inline pull-left">
-              <li class="dropdown">
+            <ul class="list-inline pull-left">
+              <li class="login dropdown">
                 <form action="#">
-                  <a href="#" title="">
+                  <a href="#" title="Đăng nhập">
                     <span class="icon icon-key icon-sm1"></span>
-                    <span class="text link">Đăng nhập</span>
+                    <span class="link">Đăng nhập</span>
                   </a>
-                  <div class="dropdown-block box-shadow login-fast">
+                  <div class="dropdown-block box-shadow">
                     <div class="arrow arrow-up arrow-white arrow-sm1"></div>
-                    <div class="inner-login-fast">
-                      <div class="social">
+                    <div class="wrapper">
+                      <div class="login-fast">
                         <span>Đăng nhập bằng</span>
-                        <ul class="list-inline">
-                          <li><a href="#" title=""><span class="icon icon-fb icon-sm3"></span></a></li>
-                          <li><a href="#" title=""><span class="icon icon-tw icon-sm3"></span></a></li>
-                          <li><a href="#" title=""><span class="icon icon-gg icon-sm3"></span></a></li>
+                        <ul class="list-inline social">
+                          <li><a href="#" title="facebook"><span class="icon icon-fb icon-sm3"></span></a></li>
+                          <li><a href="#" title="twiter"><span class="icon icon-tw icon-sm3"></span></a></li>
+                          <li><a href="#" title="google plus"><span class="icon icon-gg icon-sm3"></span></a></li>
                         </ul>
                       </div>
-                      <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Đăng nhập">
-                      </div>
-                      <div class="form-group">
-                        <input type="password" class="form-control" placeholder="Mật khẩu">
-                      </div>
-                      <div class="checkbox">
-                        <label>
-                          <input type="checkbox"><span>Nhớ mật khẩu</span> 
+                      <div class="login-normal">
+                        <div class="form-group">
+                          <input type="text" class="form-control" placeholder="Đăng nhập">
+                        </div>
+                        <div class="form-group">
+                          <input type="password" class="form-control" placeholder="Mật khẩu">
+                        </div>
+                        <label class="checkbox">
+                          <input type="checkbox">Nhớ mật khẩu
                         </label>
-                        <a href="#" title=""><span class="link-default">Quên mật khẩu ?</span></a>
-                      </div>
-                      <div>
-                        <a href="#" title="" class="btn btn-diva btn-block">Đăng nhập</a>
+                        <a href="#" title="Quên mật khẩu ?"><span class="link-default">Quên mật khẩu ?</span></a>
+                        <div>
+                          <button type="button" class="btn btn-default btn-block">Đăng nhập</button>
+                        </div>
                       </div>
                       <div class="register">
                         <span>Bạn chưa là thành viên?</span>
-                        <a href="#" title=""><span class="link-default">Đăng ký ngay</span></a>
+                        <a href="#" title="Đăng ký ngay"><span class="link-default">Đăng ký ngay</span></a>
                       </div>
                     </div>
                   </div>
                 </form>
               </li>
               <li class="dropdown account">
-                <a href="#" title="">
+                <a href="#" title="Tài khoản">
                   <span class="icon icon-user icon-sm1"></span>
-                  <span class="text link">Tài khoản</span>
+                  <span class="link">Tài khoản</span>
                 </a>
-                <div class="dropdown-block box-shadow acc-fast">
+                <div class="dropdown-block box-shadow">
                   <div class="arrow arrow-up arrow-white arrow-sm1"></div>
                   <ul class="list-unstyled">
                     <li>
-                      <a href="#" title="">
+                      <a href="#" title="Lịch sử đơn hàng">
                         <span class="icon icon-history icon-sm0"></span>
-                        <span class="text link">Lịch sử đơn hàng</span>
+                        <span class="link">Lịch sử đơn hàng</span>
                       </a>
                     </li>
                     <li>
-                      <a href="#" title="">
+                      <a href="#" title="Địa chỉ nhận hàng">
                         <span class="icon icon-location icon-sm0"></span>
-                        <span class="text link">Địa chỉ nhận hàng</span>
+                        <span class="link">Địa chỉ nhận hàng</span>
                       </a>
                     </li>
                     <li>
-                      <a href="#" title="">
+                      <a href="#" title="Quản lý trả hàng">
                         <span class="icon icon-note icon-sm0"></span>
-                        <span class="text link">Quản lý trả hàng</span>
+                        <span class="link">Quản lý trả hàng</span>
                       </a>
                     </li>
                   </ul>
                 </div>
               </li>
               <li>
-                <a href="#" title="">
+                <a href="#" title="Sản phẩm yêu thích">
                   <span class="icon icon-heart icon-sm1"></span>
-                  <span class="text link">Sản phẩm yêu thích</span>
+                  <span class="link">Sản phẩm yêu thích</span>
                 </a>
               </li>
               <li>
-                <a href="#" title="">
+                <a href="#" title="Đặt hàng tự động">
                   <span class="icon icon-mini-cart icon-sm1"></span>
-                  <span class="text link">Đặt hàng tự động</span>
+                  <span class="link">Đặt hàng tự động</span>
                 </a>
               </li>
             </ul>
             <ul class="contact-top list-inline pull-right">
               <li>
-                <a href="#" title="">
+                <a href="#" title="Phone number">
                   <span class="icon icon-mini-phone icon-sm1"></span>
-                  <span class="text link">1988 354 345</span>
+                  <span class="link">1988 354 345</span>
                 </a>
               </li>
               <li>
-                <a href="#" title="">
+                <a href="#" title="Trợ giúp">
                   <span class="icon icon-mailbox icon-sm1"></span>
                   <span class="text link">Trợ giúp</span>
                 </a>
@@ -124,18 +127,26 @@
             </ul>
           </div>
         </div>
-      </div>
-      <section class="block-ad">
-        <a href="#" title=""><img src="./image/upload/ad-1.jpg" alt="ad-1"></a>
       </section>
-      <div class="header-main">
+      <section class="block-ad">
         <div class="container">
-          <div class="inner-header-main">
+          <div class="inner-block-ad">
+            <a href="#" title=""><img src="./image/upload/ad-1.jpg" alt="ad-1"></a>
+          </div>
+        </div>
+      </section>
+      <section class="header-main">
+        <div class="container">
+          <div class="inner-header-main clearfix">
             <div class="col-lg-3">
-              <div class="form-group search-box">
-                <input type="text" class="form-control" placeholder="Tìm sản phẩm">
-                <a href="#" class="btn btn-none"><span class="glyphicon glyphicon-search" aria-hidden="true"></a>
-              </div>
+              <form action="#">
+                <div class="form-group search-box">
+                  <input type="text" class="form-control" placeholder="Tìm sản phẩm">
+                  <button type="button" class="btn btn-none">
+                    <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                  </button>
+                </div>
+              </form>
             </div>
             <div class="col-lg-3">
               <h1 class="logo">
@@ -145,54 +156,52 @@
             <div class="col-lg-6 menu-cart">
               <ul class="list-inline pull-right">
                 <li class="shopping-cart dropdown">
-                  <a href="#" title="">
+                  <a href="#" title="GIỎ HÀNG">
                     <span class="icon icon-cart icon-sm2"></span>
                     <span class="cart-quantity">2</span>
-                    <span class="text link">GIỎ<br>HÀNG</span>
+                    <span class="link">GIỎ<br>HÀNG</span>
                   </a>
                   <div class="cart-details dropdown-block box-shadow">
                     <div class="arrow arrow-up arrow-gray arrow-sm2"></div>
                     <div class="arrow arrow-up arrow-white arrow-sm2"></div>
                     <ul class="list-unstyled list-item">
                       <li class="item">
-                        <div class="wrap-item clearfix">
+                        <div class="product-detail clearfix">
                           <div class="col-lg-3">
-                            <a href="#" alt=""><img src="./image/upload/product-thumbnail-1.jpg" alt=""></a>
+                            <a href="#" title=""><img src="./image/upload/product-thumbnail-1.jpg" alt=""></a>
                           </div>
                           <div class="product-tag col-lg-7">
                             <h4>
-                              <a href="#" title="SEPHORA FAVORITES The Leading Man Cologne">
-                                <span class="text link">
+                              <a href="#" title="SEPHORA FAVORITES The Leading Man Cologne" class="link">
                                   SEPHORA FAVORITES The Leading Man Cologne
-                                </span>
                               </a>
                             </h4>
-                            <p><span class="price price-old">1.000.000 đ</span></p>
-                            <p><span class="price price-new">500.000 đ</span></p>
+                            <p><span class="price price-old">1.000.000</span></p>
+                            <p><span class="price price-new">500.000</span></p>
                           </div>
                           <div class="col-lg-1">
                             <span class="quantity">x1</span>
                           </div>
                           <div class="col-lg-1">
-                            <span class="icon icon-trash icon-sm0"></span>
+                            <a href="#" title="delete"><span class="icon icon-trash icon-sm0"></span></a>
                           </div>
                         </div>
                       </li>
                       <li class="item">
                         <div class="wrap-item clearfix">
                           <div class="col-lg-3">
-                            <a href="#" alt=""><img src="./image/upload/product-thumbnail-2.jpg" alt=""></a>
+                            <a href="#" title=""><img src="./image/upload/product-thumbnail-2.jpg" alt=""></a>
                           </div>
                           <div class="product-tag col-lg-7">
                             <h4>
                               <a href="#" title="SEPHORA FAVORITES The Leading Man Cologne">
-                                <span class="text link">
+                                <span class="link">
                                   SEPHORA FAVORITES The Leading Man Cologne
                                 </span>
                               </a>
                             </h4>
-                            <p><span class="price price-old">1.000.000 đ</span></p>
-                            <p><span class="price price-new">500.000 đ</span></p>
+                            <p><span class="price price-old">1.000.000</span></p>
+                            <p><span class="price price-new">500.000</span></p>
                           </div>
                           <div class="col-lg-1">
                             <span class="quantity">x1</span>
@@ -206,131 +215,131 @@
                     <div class="sum clearfix">
                       <div class="wrap-sum pull-right">
                         <span>Tổng cộng</span>
-                        <span class="price">1.000.000 đ</span>
+                        <span class="price">1.000.000</span>
                       </div>
                     </div>
                     <div class="clearfix">
                       <div class="col-lg-6">
-                        <a href="#" title=""><span class="btn btn-noactive link btn-block">Xem giỏ hàng</span></a>
+                        <a href="#" title="Xem giỏ hàng" class="btn btn-noactive btn-block">Xem giỏ hàng</a>
                       </div>
                       <div class="col-lg-6">
-                        <a href="#" title=""><span class="btn btn-active btn-block">Thanh toán</span></a>
+                        <a href="#" title="Thanh toán"><span class="btn btn-active btn-block">Thanh toán</span></a>
                       </div>
                     </div>
                   </div>
                 </li>
                 <li>
-                  <a href="#" title="">
+                  <a href="#" title="GIAO HÀNG MIỄN PHÍ">
                     <span class="icon icon-truck icon-sm2"></span>
-                    <span class="text link">GIAO HÀNG<br>MIỄN PHÍ</span>
+                    <span class="link">GIAO HÀNG<br>MIỄN PHÍ</span>
                   </a>
                 </li>
                 <li>
-                  <a href="#" title="">
+                  <a href="#" title="ĐỔI TRẢ MIỄN PHÍ">
                     <span class="icon icon-clock icon-sm2"></span>
-                    <span class="text link">ĐỔI TRẢ<br>MIỄN PHÍ</span>
+                    <span class="link">ĐỔI TRẢ<br>MIỄN PHÍ</span>
                   </a>
                 </li>
                 <li>
-                  <a href="#" title="">
+                  <a href="#" title="HÀNG MẪU MIỄN PHÍ">
                     <span class="icon icon-box icon-sm2"></span>
-                    <span class="text link">HÀNG MẪU<br>MIỄN PHÍ</span>
+                    <span class="link">HÀNG MẪU<br>MIỄN PHÍ</span>
                   </a>
                 </li>
                 <li class="separate">
-                  <a href="#" title="">
-                    <span class="text link">TẶNG 50 %<br>KHI MUA HÀNG</span>
+                  <a href="#" title="TẶNG 50 % KHI MUA HÀNG">
+                    <span class="link">TẶNG 50 %<br>KHI MUA HÀNG</span>
                   </a>
                 </li>
               </ul>
             </div>
           </div>
         </div>
-      </div>
-      <div class="">
+      </section>
+      <section class="main-menu">
         <div class="container">
           <nav class="nav-main mega-menu-anchor">
             <ul class="nav nav-bar">
               <li class="category category-brand">
-                <a href="#"><span class="text link">THƯƠNG HIỆU</span></a>
+                <a href="#" title="THƯƠNG HIỆU" class="link">THƯƠNG HIỆU</a>
                 <div class="container mega-menu mega-menu-brand">
                   <ul class="list-inline list-unstyled">
-                    <li class="brand-filter-all active"><a href="#" title=""><span class="text link">TẤT CẢ</span></a></li>
-                    <li class="brand-filter-a"><a href="#" title=""><span class="text link">A</span></a></li>
-                    <li class="brand-filter-b"><a href="#" title=""><span class="text link">B</span></a></li>
-                    <li class="brand-filter-c"><a href="#" title=""><span class="text link">C</span></a></li>
-                    <li class="brand-filter-d"><a href="#" title=""><span class="text link">D</span></a></li>
-                    <li class="brand-filter-e"><a href="#" title=""><span class="text link">E</span></a></li>
-                    <li class="brand-filter-f"><a href="#" title=""><span class="text link">F</span></a></li>
-                    <li class="brand-filter-g"><a href="#" title=""><span class="text link">G</span></a></li>
-                    <li class="brand-filter-h"><a href="#" title=""><span class="text link">H</span></a></li>
-                    <li class="brand-filter-i"><a href="#" title=""><span class="text link">I</span></a></li>
-                    <li class="brand-filter-j"><a href="#" title=""><span class="text link">J</span></a></li>
-                    <li class="brand-filter-k"><a href="#" title=""><span class="text link">K</span></a></li>
-                    <li class="brand-filter-l"><a href="#" title=""><span class="text link">L</span></a></li>
-                    <li class="brand-filter-m"><a href="#" title=""><span class="text link">M</span></a></li>
-                    <li class="brand-filter-n"><a href="#" title=""><span class="text link">N</span></a></li>
-                    <li class="brand-filter-o"><a href="#" title=""><span class="text link">O</span></a></li>
-                    <li class="brand-filter-p"><a href="#" title=""><span class="text link">P</span></a></li>
-                    <li class="brand-filter-q"><a href="#" title=""><span class="text link">Q</span></a></li>
-                    <li class="brand-filter-r"><a href="#" title=""><span class="text link">R</span></a></li>
-                    <li class="brand-filter-s"><a href="#" title=""><span class="text link">S</span></a></li>
-                    <li class="brand-filter-t"><a href="#" title=""><span class="text link">T</span></a></li>
-                    <li class="brand-filter-u"><a href="#" title=""><span class="text link">U</span></a></li>
-                    <li class="brand-filter-v"><a href="#" title=""><span class="text link">V</span></a></li>
-                    <li class="brand-filter-w"><a href="#" title=""><span class="text link">W</span></a></li>
-                    <li class="brand-filter-x"><a href="#" title=""><span class="text link">X</span></a></li>
-                    <li class="brand-filter-y"><a href="#" title=""><span class="text link">Y</span></a></li>
-                    <li class="brand-filter-z"><a href="#" title=""><span class="text link">Z</span></a></li>
+                    <li class="brand-filter-all active"><a href="#" title="TẤT CẢ"><span class="link">TẤT CẢ</span></a></li>
+                    <li class="brand-filter-a"><a href="#" title="A"><span class="link">A</span></a></li>
+                    <li class="brand-filter-b"><a href="#" title="B"><span class="link">B</span></a></li>
+                    <li class="brand-filter-c"><a href="#" title="C"><span class="link">C</span></a></li>
+                    <li class="brand-filter-d"><a href="#" title="D"><span class="link">D</span></a></li>
+                    <li class="brand-filter-e"><a href="#" title="E"><span class="link">E</span></a></li>
+                    <li class="brand-filter-f"><a href="#" title="F"><span class="link">F</span></a></li>
+                    <li class="brand-filter-g"><a href="#" title="G"><span class="link">G</span></a></li>
+                    <li class="brand-filter-h"><a href="#" title="H"><span class="link">H</span></a></li>
+                    <li class="brand-filter-i"><a href="#" title="I"><span class="link">I</span></a></li>
+                    <li class="brand-filter-j"><a href="#" title="J"><span class="text link">J</span></a></li>
+                    <li class="brand-filter-k"><a href="#" title="K"><span class="text link">K</span></a></li>
+                    <li class="brand-filter-l"><a href="#" title="L"><span class="text link">L</span></a></li>
+                    <li class="brand-filter-m"><a href="#" title="M"><span class="text link">M</span></a></li>
+                    <li class="brand-filter-n"><a href="#" title="N"><span class="text link">N</span></a></li>
+                    <li class="brand-filter-o"><a href="#" title="O"><span class="text link">O</span></a></li>
+                    <li class="brand-filter-p"><a href="#" title="P"><span class="text link">P</span></a></li>
+                    <li class="brand-filter-q"><a href="#" title="Q"><span class="text link">Q</span></a></li>
+                    <li class="brand-filter-r"><a href="#" title="R"><span class="text link">R</span></a></li>
+                    <li class="brand-filter-s"><a href="#" title="S"><span class="text link">S</span></a></li>
+                    <li class="brand-filter-t"><a href="#" title="T"><span class="text link">T</span></a></li>
+                    <li class="brand-filter-u"><a href="#" title="U"><span class="text link">U</span></a></li>
+                    <li class="brand-filter-v"><a href="#" title="V"><span class="text link">V</span></a></li>
+                    <li class="brand-filter-w"><a href="#" title="W"><span class="text link">W</span></a></li>
+                    <li class="brand-filter-x"><a href="#" title="X"><span class="text link">X</span></a></li>
+                    <li class="brand-filter-y"><a href="#" title="Y"><span class="text link">Y</span></a></li>
+                    <li class="brand-filter-z"><a href="#" title="Z"><span class="text link">Z</span></a></li>
                   </ul>
                   <div class="clearfix brand-filter-block filter-all active">
                     <div class="col-lg-8 group-link">
-                      <h3><a href="" title=""><span class="link">TẤT CẢ</span></a></h3>
+                      <h3><a href="" title="TẤT CẢ"><span class="link">TẤT CẢ</span></a></h3>
                       <ul class="list-unstyled">
-                        <li><a href="#" title=""><span class="link">Acqua Di Parma</span></a></li>
-                        <li><a href="#" title=""><span class="link">AERIN</span></a></li>
-                        <li><a href="#" title=""><span class="link">Agave</span></a></li>
-                        <li><a href="#" title=""><span class="link">Algenist</span></a></li>
-                        <li><a href="#" title=""><span class="link">ALTERNA Haircare</span></a></li>
-                        <li><a href="#" title=""><span class="link">Amazing Cosmetics</span></a></li>
-                        <li><a href="#" title=""><span class="link">amika</span></a></li>
-                        <li><a href="#" title=""><span class="link">AmorePacific</span></a></li>
-                        <li><a href="#" title=""><span class="link">Anastasia Beverly Hills</span></a></li>
-                        <li><a href="#" title=""><span class="link">Andre Walker Hair</span></a></li>
-                        <li><a href="#" title=""><span class="link">Atelier Cologne</span></a></li>
-                        <li><a href="#" title=""><span class="link">Acqua Di Parma</span></a></li>
-                        <li><a href="#" title=""><span class="link">AERIN</span></a></li>
-                        <li><a href="#" title=""><span class="link">Agave</span></a></li>
-                        <li><a href="#" title=""><span class="link">Algenist</span></a></li>
-                        <li><a href="#" title=""><span class="link">ALTERNA Haircare</span></a></li>
-                        <li><a href="#" title=""><span class="link">Amazing Cosmetics</span></a></li>
-                        <li><a href="#" title=""><span class="link">amika</span></a></li>
-                        <li><a href="#" title=""><span class="link">AmorePacific</span></a></li>
-                        <li><a href="#" title=""><span class="link">Anastasia Beverly Hills</span></a></li>
-                        <li><a href="#" title=""><span class="link">Andre Walker Hair</span></a></li>
-                        <li><a href="#" title=""><span class="link">Atelier Cologne</span></a></li>
-                        <li><a href="#" title=""><span class="link">Acqua Di Parma</span></a></li>
-                        <li><a href="#" title=""><span class="link">AERIN</span></a></li>
-                        <li><a href="#" title=""><span class="link">Agave</span></a></li>
-                        <li><a href="#" title=""><span class="link">Algenist</span></a></li>
-                        <li><a href="#" title=""><span class="link">ALTERNA Haircare</span></a></li>
-                        <li><a href="#" title=""><span class="link">Amazing Cosmetics</span></a></li>
-                        <li><a href="#" title=""><span class="link">amika</span></a></li>
-                        <li><a href="#" title=""><span class="link">AmorePacific</span></a></li>
-                        <li><a href="#" title=""><span class="link">Anastasia Beverly Hills</span></a></li>
-                        <li><a href="#" title=""><span class="link">Andre Walker Hair</span></a></li>
-                        <li><a href="#" title=""><span class="link">Atelier Cologne</span></a></li>
-                        <li><a href="#" title=""><span class="link">Acqua Di Parma</span></a></li>
-                        <li><a href="#" title=""><span class="link">AERIN</span></a></li>
-                        <li><a href="#" title=""><span class="link">Agave</span></a></li>
-                        <li><a href="#" title=""><span class="link">Algenist</span></a></li>
-                        <li><a href="#" title=""><span class="link">ALTERNA Haircare</span></a></li>
-                        <li><a href="#" title=""><span class="link">Amazing Cosmetics</span></a></li>
+                        <li><a href="#" title="Acqua Di Parma"><span class="link">Acqua Di Parma</span></a></li>
+                        <li><a href="#" title="AERIN"><span class="link">AERIN</span></a></li>
+                        <li><a href="#" title="Agave"><span class="link">Agave</span></a></li>
+                        <li><a href="#" title="Algenist"><span class="link">Algenist</span></a></li>
+                        <li><a href="#" title="ALTERNA Haircare"><span class="link">ALTERNA Haircare</span></a></li>
+                        <li><a href="#" title="Amazing Cosmetics"><span class="link">Amazing Cosmetics</span></a></li>
+                        <li><a href="#" title="amika"><span class="link">amika</span></a></li>
+                        <li><a href="#" title="AmorePacific"><span class="link">AmorePacific</span></a></li>
+                        <li><a href="#" title="Anastasia Beverly Hills"><span class="link">Anastasia Beverly Hills</span></a></li>
+                        <li><a href="#" title="Andre Walker Hair"><span class="link">Andre Walker Hair</span></a></li>
+                        <li><a href="#" title="Atelier Cologne"><span class="link">Atelier Cologne</span></a></li>
+                        <li><a href="#" title="Acqua Di Parma"><span class="link">Acqua Di Parma</span></a></li>
+                        <li><a href="#" title="AERIN"><span class="link">AERIN</span></a></li>
+                        <li><a href="#" title="Agave"><span class="link">Agave</span></a></li>
+                        <li><a href="#" title="Algenist"><span class="link">Algenist</span></a></li>
+                        <li><a href="#" title="ALTERNA Haircare"><span class="link">ALTERNA Haircare</span></a></li>
+                        <li><a href="#" title="Amazing Cosmetics"><span class="link">Amazing Cosmetics</span></a></li>
+                        <li><a href="#" title="amika"><span class="link">amika</span></a></li>
+                        <li><a href="#" title="AmorePacific"><span class="link">AmorePacific</span></a></li>
+                        <li><a href="#" title="Anastasia Beverly Hills"><span class="link">Anastasia Beverly Hills</span></a></li>
+                        <li><a href="#" title="Andre Walker Hair"><span class="link">Andre Walker Hair</span></a></li>
+                        <li><a href="#" title="Atelier Cologne"><span class="link">Atelier Cologne</span></a></li>
+                        <li><a href="#" title="Acqua Di Parma"><span class="link">Acqua Di Parma</span></a></li>
+                        <li><a href="#" title="AERIN"><span class="link">AERIN</span></a></li>
+                        <li><a href="#" title="Agave"><span class="link">Agave</span></a></li>
+                        <li><a href="#" title="Algenist"><span class="link">Algenist</span></a></li>
+                        <li><a href="#" title="ALTERNA Haircare"><span class="link">ALTERNA Haircare</span></a></li>
+                        <li><a href="#" title="Amazing Cosmetics"><span class="link">Amazing Cosmetics</span></a></li>
+                        <li><a href="#" title="amika"><span class="link">amika</span></a></li>
+                        <li><a href="#" title="AmorePacific"><span class="link">AmorePacific</span></a></li>
+                        <li><a href="#" title="Anastasia Beverly Hills"><span class="link">Anastasia Beverly Hills</span></a></li>
+                        <li><a href="#" title="Andre Walker Hair"><span class="link">Andre Walker Hair</span></a></li>
+                        <li><a href="#" title="Atelier Cologne"><span class="link">Atelier Cologne</span></a></li>
+                        <li><a href="#" title="Acqua Di Parma"><span class="link">Acqua Di Parma</span></a></li>
+                        <li><a href="#" title="AERIN"><span class="link">AERIN</span></a></li>
+                        <li><a href="#" title="Agave"><span class="link">Agave</span></a></li>
+                        <li><a href="#" title="Algenist"><span class="link">Algenist</span></a></li>
+                        <li><a href="#" title="ALTERNA Haircare"><span class="link">ALTERNA Haircare</span></a></li>
+                        <li><a href="#" title="Amazing Cosmetics"><span class="link">Amazing Cosmetics</span></a></li>
                       </ul>
                     </div>
                     <div class="col-lg-4">
-                      <a href="#" title=""><img src="./image/upload/nav-illus-1.jpg" class="illus"></a>
-                      <a href="#" title=""><img src="./image/upload/nav-illus-2.jpg" class="illus"></a>
+                      <a href="#" title="Olay"><img src="./image/upload/nav-illus-1.jpg" alt="Olay" class="illus"></a>
+                      <a href="#" title="Queen collection"><img src="./image/upload/nav-illus-2.jpg" alt="Queen collection" class="illus"></a>
                     </div>
                   </div>
                   <div class="clearfix brand-filter-block filter-a">
@@ -379,16 +388,16 @@
                       </ul>
                     </div>
                     <div class="col-lg-4">
-                      <a href="#" title=""><img src="./image/upload/nav-illus-1.jpg" class="illus"></a>
-                      <a href="#" title=""><img src="./image/upload/nav-illus-2.jpg" class="illus"></a>
+                      <a href="#" title="Olay"><img src="./image/upload/nav-illus-1.jpg" alt="Olay" class="illus"></a>
+                      <a href="#" title="Queen collection"><img src="./image/upload/nav-illus-2.jpg" alt="Queen collection" class="illus"></a>
                     </div>
                   </div>
                   <div class="clearfix brand-filter-block filter-b">
                     <div class="col-lg-8 group-link">
-                      <h3><a href="" title=""><span class="link">B</span></a></h3>
+                      <h3><a href="" title="B"><span class="link">B</span></a></h3>
                       <ul class="list-unstyled">
-                        <li><a href="#" title=""><span class="link">B brand</span></a></li>
-                        <li><a href="#" title=""><span class="link">B brand</span></a></li>
+                        <li><a href="#" title="B brand"><span class="link">B brand</span></a></li>
+                        <li><a href="#" title="B brand"><span class="link">B brand</span></a></li>
                       </ul>
                     </div>
                     <div class="col-lg-4">
@@ -397,10 +406,10 @@
                   </div>
                   <div class="clearfix brand-filter-block filter-c">
                     <div class="col-lg-8 group-link">
-                      <h3><a href="" title=""><span class="link">C</span></a></h3>
+                      <h3><a href="" title="C"><span class="link">C</span></a></h3>
                       <ul class="list-unstyled">
-                        <li><a href="#" title=""><span class="link">C brand</span></a></li>
-                        <li><a href="#" title=""><span class="link">C brand</span></a></li>
+                        <li><a href="#" title="C brand"><span class="link">C brand</span></a></li>
+                        <li><a href="#" title="C brand"><span class="link">C brand</span></a></li>
                       </ul>
                     </div>
                     <div class="col-lg-4">
@@ -410,29 +419,29 @@
                 </div>
               </li>
               <li class="category category-skin">
-                <a href="#"><span class="text link">DƯỠNG DA</span></a>
+                <a href="#" title="DƯỠNG DA" class="link">DƯỠNG DA</a>
                 <div class="container mega-menu mega-menu-skin">
                   <div class="clearfix skin-block">
                     <div class="col-lg-8 group-link">
                       <div class="col-lg-3">
                         <div class="group-link-col">
-                          <h3><a href="" title=""><span class="link">MẶT</span></a></h3>
+                          <h3><a href="" title="MẶT"><span class="link">MẶT</span></a></h3>
                           <ul class="list-unstyled">
-                            <li><a href="#" title=""><span class="link">Rửa mặt</span></a></li>
-                            <li><a href="#" title=""><span class="link">Tẩy trang</span></a></li>
-                            <li><a href="#" title=""><span class="link">Lotion</span></a></li>
-                            <li><a href="#" title=""><span class="link">Mặt nạ</span></a></li>
-                            <li><a href="#" title=""><span class="link">Tẩy tế bào chết</span></a></li>
-                            <li><a href="#" title=""><span class="link">Tinh chất</span></a></li>
-                            <li><a href="#" title=""><span class="link">Kem dưỡng</span></a></li>
+                            <li><a href="#" title="Rửa mặt"><span class="link">Rửa mặt</span></a></li>
+                            <li><a href="#" title="Tẩy trang"><span class="link">Tẩy trang</span></a></li>
+                            <li><a href="#" title="Lotion"><span class="link">Lotion</span></a></li>
+                            <li><a href="#" title="Mặt nạ"><span class="link">Mặt nạ</span></a></li>
+                            <li><a href="#" title="Tẩy tế bào chết"><span class="link">Tẩy tế bào chết</span></a></li>
+                            <li><a href="#" title="Tinh chất"><span class="link">Tinh chất</span></a></li>
+                            <li><a href="#" title="Kem dưỡng"><span class="link">Kem dưỡng</span></a></li>
                           </ul>
                         </div>
                       </div>
                       <div class="col-lg-3">
                         <div class="group-link-col">
-                          <h3><a href="" title=""><span class="link">MẮT</span></a></h3>
+                          <h3><a href="" title="MẮT"><span class="link">MẮT</span></a></h3>
                           <ul class="list-unstyled">
-                            <li><a href="#" title=""><span class="link">Rửa mặt</span></a></li>
+                            <li><a href="#" title="Rửa mặt"><span class="link">Rửa mặt</span></a></li>
                             <li><a href="#" title=""><span class="link">Tẩy trang</span></a></li>
                             <li><a href="#" title=""><span class="link">Lotion</span></a></li>
                           </ul>
@@ -478,58 +487,59 @@
                       </div>
                     </div>
                     <div class="col-lg-4">
-                      <a href="#" title=""><img src="./image/upload/nav-illus-1.jpg" class="illus"></a>
-                      <a href="#" title=""><img src="./image/upload/nav-illus-2.jpg" class="illus"></a>
+                      <a href="#" title="Olay"><img src="./image/upload/nav-illus-1.jpg" alt="Olay" class="illus"></a>
+                      <a href="#" title="Queen collection"><img src="./image/upload/nav-illus-2.jpg" alt="Queen collection" class="illus"></a>
                     </div>
+                  </div>
                 </div>
               </li>
               <li class="category category-makeup">
-                <a href="#"><span class="text link">TRANG ĐIỂM</span></a>
+                <a href="#" class="link">TRANG ĐIỂM</a>
                 <!-- <div class="container mega-menu mega-menu-makeup">
                   asdasds
                 </div> -->
               </li>
               <li class="category category-perfume">
-                <a href="#"><span class="text link">NƯỚC HOA</span></a>
+                <a href="#" class="link">NƯỚC HOA</a>
                 <!-- <div class="container mega-menu mega-menu-perfume">
                   kjhoiuewyrewr
                 </div> -->
               </li>
               <li class="category category-body">
-                <a href="#"><span class="text link">DẦU TẮM &amp; DƯỠNG THỂ</span></a>
+                <a href="#" class="link">DẦU TẮM &amp; DƯỠNG THỂ</a>
                 <!-- <div class="container mega-menu mega-menu-body">
                   asdasds
                 </div> -->
               </li>
               <li class="category category-hair">
-                <a href="#"><span class="text link">CHĂM SÓC TÓC</span></a>
+                <a href="#" class="link">CHĂM SÓC TÓC</a>
                 <!-- <div class="container mega-menu mega-menu-hair">
                   kjhoiuewyrewr
                 </div> -->
               </li>
               <li class="category category-accessory">
-                <a href="#"><span class="text link">PHỤ KIỆN THỜI TRANG</span></a>
+                <a href="#" class="link">PHỤ KIỆN THỜI TRANG</a>
                 <!-- <div class="container mega-menu mega-menu-accessory">
                   asdasds
                 </div> -->
               </li>
               <li class="category category-trend">
-                <a href="#"><span class="text link">TƯ VẤN XU HƯỚNG</span></a>
+                <a href="#" class="link">TƯ VẤN XU HƯỚNG</a>
                 <div class="container mega-menu mega-menu-trend">
                   <div class="col-lg-3">
-                    <h3><a href="#" title=""><span class="text link">TƯ VẤN LÀM ĐẸP</span></a></h3>
-                    <a href="#" title=""><img src="./image/upload/nav-illus-3.jpg" class="illus"></a>
-                    <div><span class="btn btn-diva">Đọc thêm</span></div>
+                    <h3><a href="#" title="TƯ VẤN LÀM ĐẸP"><span class="link">TƯ VẤN LÀM ĐẸP</span></a></h3>
+                    <a href="#" title="TƯ VẤN LÀM ĐẸP"><img src="./image/upload/nav-illus-3.jpg" alt="TƯ VẤN LÀM ĐẸP" class="illus"></a>
+                    <div><span class="btn btn-default">Đọc thêm</span></div>
                   </div>
                   <div class="col-lg-3">
-                    <h3><a href="#" title=""><span class="text link">XU HƯỚNG MỚI</span></a></h3>
-                    <a href="#" title=""><img src="./image/upload/nav-illus-4.jpg" class="illus"></a>
-                    <div><span class="btn btn-diva">Đọc thêm</span></div>
+                    <h3><a href="#" title="XU HƯỚNG MỚI"><span class="text link">XU HƯỚNG MỚI</span></a></h3>
+                    <a href="#" title="XU HƯỚNG MỚI"><img src="./image/upload/nav-illus-4.jpg" alt="XU HƯỚNG MỚI" class="illus"></a>
+                    <div><span class="btn btn-default">Đọc thêm</span></div>
                   </div>
                   <div class="col-lg-3">
-                    <h3><a href="#" title=""><span class="text link">ĐÁNH GIÁ SẢN PHẨM</span></a></h3>
-                    <a href="#" title=""><img src="./image/upload/nav-illus-5.jpg" class="illus"></a>
-                    <div><span class="btn btn-diva">Đọc thêm</span></div>
+                    <h3><a href="#" title="ĐÁNH GIÁ SẢN PHẨM"><span class="link">ĐÁNH GIÁ SẢN PHẨM</span></a></h3>
+                    <a href="#" title="ĐÁNH GIÁ SẢN PHẨM"><img src="./image/upload/nav-illus-5.jpg" alt="ĐÁNH GIÁ SẢN PHẨM" class="illus"></a>
+                    <div><span class="btn btn-default">Đọc thêm</span></div>
                   </div>
                   <div class="col-lg-3 group-link">
                     <h3><a href="#" title=""><span class="text link">KHÁM PHÁ THÊM</span></a></h3>
@@ -547,13 +557,628 @@
             </ul>
           </nav>
         </div>
-      </div>
+      </section>
     </header>
     <div class="main-content">
-      
+      <section class="banner">
+        <div class=container>
+          <div class="wrap-banner">
+            <div class="banner-big pull-left">
+              <a href="#" title="">
+                <img src="./image/upload/banner-big-01.jpg">
+              </a>
+            </div>
+            <div class="banner-small pull-left">
+              <div class="banner-ads">
+                <a href="#" title="">
+                  <img src="./image/upload/banner-small-01.jpg">
+                </a>
+                <a href="#" title="">
+                  <img src="./image/upload/banner-small-01.jpg">
+                </a>
+              </div>
+              <ul class="list-unstyled list-inline">
+                <li><a href="#" title="XU HƯỚNG MỚI NHẤT" class="btn btn-special link">XU HƯỚNG MỚI NHẤT</a></li>
+                <li><a href="#" title="SẢN PHẨM MỚI NHẤT" class="btn btn-special link">SẢN PHẨM MỚI NHẤT</a></li>
+                <li><a href="#" title="QUÀ TẶNG KÈM" class="btn btn-special link">QUÀ TẶNG KÈM</a></li>
+                <li><a href="#" title="MẪU DÙNG THỬ" class="btn btn-special link">MẪU DÙNG THỬ</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="block-ad">
+        <div class="container">
+          <div class="inner-block-ad">
+            <a href="#" title=""><img src="./image/upload/ad-2.jpg" alt="ad-2"></a>
+          </div>
+        </div>
+      </section>
+      <section class="recommended">
+        <div class="container">
+          <div class="wrap-title">
+            <div class="title title-strike">
+              <h2>SHOP TỰ ĐỀ CỬ</h2>
+              <a href="#" title="SHOP TỰ ĐỀ CỬ" class="btn-more link">XEM THÊM</a>
+            </div>
+          </div>
+          <div class="product-list product-list-4col-lg row">
+            <div class="product-item clearfix">
+              <a href="#" title="John masters organics - Lip Calm">
+                <div class="product">
+                  <div class="status">Mới</div>
+                  <img src="./image/upload/product-4col-1.jpg" alt="recommended-product-1">
+                  <div class="caption">
+                    <div class="serial-no">1</div>
+                    <h3 class="product-name">John masters organics - Lip Calm</h3>
+                  </div>
+                  <div class="buy clearfix">
+                    <span class="price">120.000</span>
+                    <span class="btn btn-default pull-right">Mua ngay</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="product-item clearfix">
+              <a href="#" title="SEPHORA FAVORITES SPRAY Of sunshine Perfume sampler">
+                <div class="product">
+                  <div class="status">Mới</div>
+                  <img src="./image/upload/product-4col-2.jpg" alt="recommended-product-2">
+                  <div class="caption">
+                    <div class="serial-no">2</div>
+                    <h3 class="product-name">SEPHORA FAVORITES SPRAY Of sunshine Perfume sampler</h3>
+                  </div>
+                  <div class="buy clearfix">
+                    <span class="price">120.000</span>
+                    <span class="btn btn-default pull-right">Mua ngay</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="product-item clearfix">
+              <a href="#" title="John masters organics - Lip Calm">
+                <div class="product">
+                  <div class="status">Mới</div>
+                  <img src="./image/upload/product-4col-3.jpg" alt="recommended-product-3">
+                  <div class="caption">
+                    <div class="serial-no">3</div>
+                    <h3 class="product-name">John masters organics - Lip Calm</h3>
+                  </div>
+                  <div class="buy clearfix">
+                    <span class="price">120.000</span>
+                    <span class="btn btn-default pull-right">Mua ngay</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="product-item clearfix">
+              <a href="#" title="SEPHORA FAVORITES SPRAY Of sunshine Perfume sampler">
+                <div class="product">
+                  <div class="status">Mới</div>
+                  <img src="./image/upload/product-4col-4.jpg" alt="recommended-product-4">
+                  <div class="caption">
+                    <div class="serial-no">4</div>
+                    <h3 class="product-name">SEPHORA FAVORITES SPRAY Of sunshine Perfume sampler</h3>
+                  </div>
+                  <div class="buy clearfix">
+                    <span class="price">120.000</span>
+                    <span class="btn btn-default pull-right">Mua ngay</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="new-product">
+        <div class="container">
+          <div class="wrap-title">
+            <div class="title title-strike">
+              <h2>SẢN PHẨM MỚI</h2>
+              <a href="#" title="SẢN PHẨM MỚI" class="btn-more link">XEM THÊM</a>
+            </div>
+          </div>
+          <div class="product-list product-list-6col-lg row">
+            <div class="product-item clearfix">
+              <a href="#" title="SEPHORA FAVORITES SPRAY Of sunshine Perfume sampler">
+                <div class="product">
+                  <!-- <div class="status">Mới</div> -->
+                  <img src="./image/upload/product-6col-1.jpg" alt="new-product-1">
+                  <div class="caption">
+                    <!-- <div class="serial-no">1</div> -->
+                    <h3 class="product-name">SEPHORA FAVORITES SPRAY Of sunshine Perfume sampler</h3>
+                  </div>
+                  <div class="buy clearfix">
+                    <span class="price">120.000</span>
+                    <!-- <span class="btn btn-default pull-right">Mua ngay</span> -->
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="product-item clearfix">
+              <a href="#" title="SEPHORA FAVORITES SPRAY Of sunshine Perfume sampler">
+                <div class="product">
+                  <!-- <div class="status">Mới</div> -->
+                  <img src="./image/upload/product-6col-2.jpg" alt="new-product-2">
+                  <div class="caption">
+                    <!-- <div class="serial-no">1</div> -->
+                    <h3 class="product-name">SEPHORA FAVORITES SPRAY Of sunshine Perfume sampler</h3>
+                  </div>
+                  <div class="buy clearfix">
+                    <span class="price">120.000</span>
+                    <!-- <span class="btn btn-default pull-right">Mua ngay</span> -->
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="product-item clearfix">
+              <a href="#" title="SEPHORA FAVORITES SPRAY Of sunshine Perfume sampler">
+                <div class="product">
+                  <!-- <div class="status">Mới</div> -->
+                  <img src="./image/upload/product-6col-3.jpg" alt="new-product-3">
+                  <div class="caption">
+                    <!-- <div class="serial-no">1</div> -->
+                    <h3 class="product-name">SEPHORA FAVORITES SPRAY Of sunshine Perfume sampler</h3>
+                  </div>
+                  <div class="buy clearfix">
+                    <span class="price">120.000</span>
+                    <!-- <span class="btn btn-default pull-right">Mua ngay</span> -->
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="product-item clearfix">
+              <a href="#" title="SEPHORA FAVORITES SPRAY Of sunshine Perfume sampler">
+                <div class="product">
+                  <!-- <div class="status">Mới</div> -->
+                  <img src="./image/upload/product-6col-4.jpg" alt="new-product-4">
+                  <div class="caption">
+                    <!-- <div class="serial-no">1</div> -->
+                    <h3 class="product-name">SEPHORA FAVORITES SPRAY Of sunshine Perfume sampler</h3>
+                  </div>
+                  <div class="buy clearfix">
+                    <span class="price">120.000</span>
+                    <!-- <span class="btn btn-default pull-right">Mua ngay</span> -->
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="product-item clearfix">
+              <a href="#" title="SEPHORA FAVORITES SPRAY Of sunshine Perfume sampler">
+                <div class="product">
+                  <!-- <div class="status">Mới</div> -->
+                  <img src="./image/upload/product-6col-5.jpg" alt="new-product-5">
+                  <div class="caption">
+                    <!-- <div class="serial-no">1</div> -->
+                    <h3 class="product-name">SEPHORA FAVORITES SPRAY Of sunshine Perfume sampler</h3>
+                  </div>
+                  <div class="buy clearfix">
+                    <span class="price">120.000</span>
+                    <!-- <span class="btn btn-default pull-right">Mua ngay</span> -->
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="product-item clearfix">
+              <a href="#" title="SEPHORA FAVORITES SPRAY Of sunshine Perfume sampler">
+                <div class="product">
+                  <!-- <div class="status">Mới</div> -->
+                  <img src="./image/upload/product-6col-6.jpg" alt="new-product-6">
+                  <div class="caption">
+                    <!-- <div class="serial-no">1</div> -->
+                    <h3 class="product-name">SEPHORA FAVORITES SPRAY Of sunshine Perfume sampler</h3>
+                  </div>
+                  <div class="buy clearfix">
+                    <span class="price">120.000</span>
+                    <!-- <span class="btn btn-default pull-right">Mua ngay</span> -->
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="promotion">
+        <div class="container">
+          <div class="wrap-title">
+            <div class="title title-strike">
+              <h2>KHUYẾN MÃI</h2>
+              <a href="#" title="KHUYẾN MÃI" class="btn-more link">XEM THÊM</a>
+            </div>
+          </div>
+          <div class="product-list product-list-6col-lg row">
+            <div class="product-item clearfix">
+              <a href="#" title="SEPHORA FAVORITES SPRAY Of sunshine Perfume sampler">
+                <div class="product">
+                  <div class="status">-50%</div>
+                  <img src="./image/upload/product-6col-7.jpg" alt="prommtion-product-1">
+                  <div class="caption">
+                    <!-- <div class="serial-no">1</div> -->
+                    <h3 class="product-name">SEPHORA FAVORITES SPRAY Of sunshine Perfume sampler</h3>
+                  </div>
+                  <div class="buy clearfix">
+                    <span class="price price-old">240.000</span>
+                    <span class="price price-new pull-right">120.000</span>
+                    <!-- <span class="btn btn-default pull-right">Mua ngay</span> -->
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="product-item clearfix">
+              <a href="#" title="SEPHORA FAVORITES SPRAY Of sunshine Perfume sampler">
+                <div class="product">
+                  <div class="status">-50%</div>
+                  <img src="./image/upload/product-6col-8.jpg" alt="prommtion-product-2">
+                  <div class="caption">
+                    <!-- <div class="serial-no">1</div> -->
+                    <h3 class="product-name">SEPHORA FAVORITES SPRAY Of sunshine Perfume sampler</h3>
+                  </div>
+                  <div class="buy clearfix">
+                    <span class="price price-old">240.000</span>
+                    <span class="price price-new pull-right">120.000</span>
+                    <!-- <span class="btn btn-default pull-right">Mua ngay</span> -->
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="product-item clearfix">
+              <a href="#" title="SEPHORA FAVORITES SPRAY Of sunshine Perfume sampler">
+                <div class="product">
+                  <div class="status">-50%</div>
+                  <img src="./image/upload/product-6col-9.jpg" alt="prommtion-product-3">
+                  <div class="caption">
+                    <!-- <div class="serial-no">1</div> -->
+                    <h3 class="product-name">SEPHORA FAVORITES SPRAY Of sunshine Perfume sampler</h3>
+                  </div>
+                  <div class="buy clearfix">
+                    <span class="price price-old">240.000</span>
+                    <span class="price price-new pull-right">120.000</span>
+                    <!-- <span class="btn btn-default pull-right">Mua ngay</span> -->
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="product-item clearfix">
+              <a href="#" title="SEPHORA FAVORITES SPRAY Of sunshine Perfume sampler">
+                <div class="product">
+                  <div class="status">-50%</div>
+                  <img src="./image/upload/product-6col-10.jpg" alt="prommtion-product-4">
+                  <div class="caption">
+                    <!-- <div class="serial-no">1</div> -->
+                    <h3 class="product-name">SEPHORA FAVORITES SPRAY Of sunshine Perfume sampler</h3>
+                  </div>
+                  <div class="buy clearfix">
+                    <span class="price price-old">240.000</span>
+                    <span class="price price-new pull-right">120.000</span>
+                    <!-- <span class="btn btn-default pull-right">Mua ngay</span> -->
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="product-item clearfix">
+              <a href="#" title="SEPHORA FAVORITES SPRAY Of sunshine Perfume sampler">
+                <div class="product">
+                  <div class="status">-50%</div>
+                  <img src="./image/upload/product-6col-11.jpg" alt="prommtion-product-5">
+                  <div class="caption">
+                    <!-- <div class="serial-no">1</div> -->
+                    <h3 class="product-name">SEPHORA FAVORITES SPRAY Of sunshine Perfume sampler</h3>
+                  </div>
+                  <div class="buy clearfix">
+                    <span class="price price-old">240.000</span>
+                    <span class="price price-new pull-right">120.000</span>
+                    <!-- <span class="btn btn-default pull-right">Mua ngay</span> -->
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="product-item clearfix">
+              <a href="#" title="SEPHORA FAVORITES SPRAY Of sunshine Perfume sampler">
+                <div class="product">
+                  <div class="status">-50%</div>
+                  <img src="./image/upload/product-6col-12.jpg" alt="prommtion-product-6">
+                  <div class="caption">
+                    <!-- <div class="serial-no">1</div> -->
+                    <h3 class="product-name">SEPHORA FAVORITES SPRAY Of sunshine Perfume sampler</h3>
+                  </div>
+                  <div class="buy clearfix">
+                    <span class="price price-old">240.000</span>
+                    <span class="price price-new pull-right">120.000</span>
+                    <!-- <span class="btn btn-default pull-right">Mua ngay</span> -->
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="discovery">
+        <div class="container">
+          <div class="wrap-title">
+            <div class="title">
+              <h2>KHÁM PHÁ CÙNG TTP ECOM</h2>
+              <span class="deco-stars">
+                <span class="three-stars">
+                  <span class="star star-nm"></span>
+                  <span class="star star-bg"></span>
+                  <span class="star star-nm"></span>
+                </span>
+              </span>
+            </div>
+          </div>
+          <div class="product-list product-list-4col-lg row">
+            <div class="product-item clearfix">
+              <div class="product">
+                <!-- <div class="status">Mới</div> -->
+                <img src="./image/upload/product-4col-5.jpg" alt="discovery-product-1">
+                <div class="caption">
+                  <!-- <div class="serial-no">1</div> -->
+                  <h3 class="course-name">Học trang điểm cùng các chuyên gia hàng đầu thế giới</h3>
+                  <div class="deco-line"></div>
+                </div>
+                <!-- <div class="buy clearfix">
+                  <span class="price">120.000</span>
+                  <span class="btn btn-default pull-right">Mua ngay</span>
+                </div> -->
+                <a href="#" title="ĐĂNG KÝ THAM GIA" class="link register">
+                  ĐĂNG KÝ THAM GIA
+                </a>
+              </div>
+            </div>
+            <div class="product-item clearfix">
+              <div class="product">
+                <!-- <div class="status">Mới</div> -->
+                <img src="./image/upload/product-4col-6.jpg" alt="discovery-product-2">
+                <div class="caption">
+                  <!-- <div class="serial-no">1</div> -->
+                  <h3 class="course-name">Học trang điểm cùng các chuyên gia hàng đầu thế giới</h3>
+                  <div class="deco-line"></div>
+                </div>
+                <!-- <div class="buy clearfix">
+                  <span class="price">120.000</span>
+                  <span class="btn btn-default pull-right">Mua ngay</span>
+                </div> -->
+                <a href="#" title="ĐĂNG KÝ THAM GIA" class="link register">
+                  ĐĂNG KÝ THAM GIA
+                </a>
+              </div>
+            </div>
+            <div class="product-item clearfix">
+              <div class="product">
+                <!-- <div class="status">Mới</div> -->
+                <img src="./image/upload/product-4col-7.jpg" alt="discovery-product-3">
+                <div class="caption">
+                  <!-- <div class="serial-no">1</div> -->
+                  <h3 class="course-name">Học trang điểm cùng các chuyên gia hàng đầu thế giới</h3>
+                  <div class="deco-line"></div>
+                </div>
+                <!-- <div class="buy clearfix">
+                  <span class="price">120.000</span>
+                  <span class="btn btn-default pull-right">Mua ngay</span>
+                </div> -->
+                <a href="#" title="ĐĂNG KÝ THAM GIA" class="link register">
+                  ĐĂNG KÝ THAM GIA
+                </a>
+              </div>
+            </div>
+            <div class="product-item clearfix">
+              <div class="product">
+                <!-- <div class="status">Mới</div> -->
+                <img src="./image/upload/product-4col-8.jpg" alt="discovery-product-4">
+                <div class="caption">
+                  <!-- <div class="serial-no">1</div> -->
+                  <h3 class="course-name">Học trang điểm cùng các chuyên gia hàng đầu thế giới</h3>
+                  <div class="deco-line"></div>
+                </div>
+                <!-- <div class="buy clearfix">
+                  <span class="price">120.000</span>
+                  <span class="btn btn-default pull-right">Mua ngay</span>
+                </div> -->
+                <a href="#" title="ĐĂNG KÝ THAM GIA" class="link register">
+                  ĐĂNG KÝ THAM GIA
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="block-ad">
+        <div class="container">
+          <div class="inner-block-ad">
+            <a href="#" title=""><img src="./image/upload/ad-3.jpg" alt="ad-3"></a>
+          </div>
+        </div>
+      </section>
     </div>
     <footer>
-      
+      <section class="footer-support">
+        <div class="container">
+          <div class=wrap-title>
+            <div class="title title-strike">
+              <h2>THẾ GIỚI LÀM ĐẸP TRỰC TUYẾN</h2>
+            </div>
+          </div>
+          <div class="support clearfix">
+            <form action="#">
+              <div class="email-register pull-left">
+                <span class="glyphicon glyphicon-envelope"></span>
+                ĐĂNG KÝ NHẬN BẢN TIN
+                <div class="input-group">
+                  <input type="text" class="input-text" placeholder="Email">
+                  <button type="button" class="btn btn-none btn-inline">
+                    <span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
+                  </button>
+                </div>
+              </div>
+              <div class="search-store pull-right">
+                <span class="glyphicon glyphicon-house"></span>
+                TÌM KIẾM CỬA HÀNG &amp; SỰ KIỆN
+                <div class="input-group">
+                  <input type="text" class="input-text" placeholder="Thành phố tỉnh">
+                  <button type="button" class="btn btn-none btn-inline">
+                    <span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+      <div class="footer-main">
+        <div class="container">
+          <section class="footer-menu">
+            <div class="inner-footer-menu clearfix">
+              <div class="col-lg-2">
+                <h5>DIVASHOP</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#" title="Về chúng tôi" class="link">Về chúng tôi</a></li>
+                  <li><a href="#" title="Hệ thống cửa hàng" class="link">Hệ thống cửa hàng</a></li>
+                  <li><a href="#" title="Dịch vụ nổi trội" class="link">Dịch vụ nổi trội</a></li>
+                  <li><a href="#" title="Điều khoản &amp; điều kiện" class="link">Điều khoản &amp; điều kiện</a></li>
+                  <li><a href="#" title="Chính sách bảo mật" class="link">Chính sách bảo mật</a></li>
+                  <li><a href="#" title="Đối tác chiến lược" class="link">Đối tác chiến lược</a></li>
+                  <li><a href="#" title="Liên kết quảng cáo" class="link">Liên kết quảng cáo</a></li>
+                  <li><a href="#" title="Cơ hội nghề nghiệp" class="link">Cơ hội nghề nghiệp</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-2">
+                <h5>HỖ TRỢ KHÁCH HÀNG</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#" title="Hỏi đáp" class="link">Hỏi đáp</a></li>
+                  <li><a href="#" title="Hướng dẫn mua hàng" class="link">Hướng dẫn mua hàng</a></li>
+                  <li><a href="#" title="Chính sách giao hàng" class="link">Chính sách giao hàng</a></li>
+                  <li><a href="#" title="Điều khoản thanh toán" class="link">Điều khoản thanh toán</a></li>
+                  <li><a href="#" title="Đổi trả hàng" class="link">Đổi trả hàng</a></li>
+                  <li><a href="#" title="Liên hệ" class="link">Liên hệ</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-2">
+                <div class="payment">
+                  <h5>CHẤP NHẬN THANH TOÁN</h5>
+                  <div class="list-card">
+                    <a href="#" title="mastercard">
+                      <img src="./image/upload/mastercard.jpg" alt="mastercard">
+                    </a>
+                    <a href="#" title="visa">
+                      <img src="./image/upload/visa.jpg" alt="visa">
+                    </a>
+                    <a href="#" title="visa">
+                      <img src="./image/upload/COD.jpg" alt="Cash on Delivery">
+                    </a>
+                  </div>
+                </div>
+                <div class="transport">
+                  <h5>ĐỐI TÁC VẬN CHUYỂN</h5>
+                  <div class="list-transporter">
+                    <a href="#" title="Gold Times">
+                      <img src="./image/upload/transporter-1.jpg" alt="transporter-1">
+                    </a>
+                  </div>
+                </div>
+                <div class="certificated">
+                  <h5>ĐƯỢC CHỨNG NHẬN</h5>
+                  <div class="list-certificated">
+                    <a href="#" title="certificated">
+                      <img src="./image/upload/certificated-1.png" alt="certificated-1">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="voucher">
+                  <div class="inner-voucher">
+                    <h5>BẠN LÀ KHÁCH HÀNG MỚI</h5>
+                    <div class="voucher-now">
+                      NHẬN NGAY VOUCHER TRỊ GIÁ
+                      <br><strong>100.000 Đ</strong>
+                    </div>
+                    <div class="voucher-register">
+                      NHẬN NGAY NHỮNG THÔNG BÁO VỀ KHUYẾN MÃI MỚI NHẤT
+                      <form action="#">
+                        <div class="input-group">
+                          <input type="text" class="input-text" placeholder="Email">
+                          <button type="button" class="btn btn-none link">
+                            ĐĂNG KÝ
+                            <span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
+                          </button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-1 col-blank">
+                <!-- NOTHING -->
+              </div>
+              <div class="col-lg-2 footer-help">
+                <div class="">
+                  <a href="#" title="chat us">
+                    <span class="icon icon-chat icon-lg"></span>
+                    <p>Chat với chúng tôi</p>
+                  </a>
+                </div>
+                <div class="">
+                  <a href="#" title="chat us">
+                    <span class="icon icon-phone-bg icon-lg"></span>
+                    <p>1988 345 345</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="footer-social">
+            <div class="inner-footer-social clearfix">
+              <div class="col-lg-1">
+                <h5>KẾT NỐI &amp; CHIA SẺ</h5>
+              </div>
+              <div class="col-lg-2">
+                <a href="#" title="facebook">
+                  <span class="icon icon-fb icon-sm3"></span>
+                  <span>Facebook<br>Thông tin khuyến mãi</span>
+                </a>
+              </div>
+              <div class="col-lg-3">
+                <a href="#" title="facebook">
+                  <span class="icon icon-tw icon-sm3"></span>
+                  <span>TWITTER<br>Thảo luận ngắn về làm đẹp</span>
+                </a>
+              </div>
+              <div class="col-lg-2">
+                <a href="#" title="facebook">
+                  <span class="icon icon-pin icon-sm3"></span>
+                  <span>PINTEREST<br>Kênh làm đẹp</span>
+                </a>
+              </div>
+              <div class="col-lg-2">
+                <a href="#" title="facebook">
+                  <span class="icon icon-youtube icon-sm3"></span>
+                  <span>YOUTUBE<br>Kênh làm đẹp</span>
+                </a>
+              </div>
+              <div class="col-lg-2">
+                <a href="#" title="facebook">
+                  <span class="icon icon-gg icon-sm3"></span>
+                  <span>GOOGLE+<br>Thông tin độc quyền</span>
+                </a>
+              </div>
+            </div>
+          </section>
+          <section class="copyright">
+            <div class="inner-copyright clearfix">
+              <div class="col-lg-9 address">
+                <h6>CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ TRẦN TOÀN PHÁT</h6>
+                <p>Địa chỉ: 246/ 9 Bình Quới, P. 28, Q. Bình Thạnh, TP. HỒ Chí Minh</p>
+                <p>Số giấy chứng nận đăng ký kinh doanh: 0310717887, cấp ngày 24/ 03/ 2011, tại sở Kế hoạch &amp; Đầu tư, TP. Hồ Chí Minh</p>
+              </div>
+              <div class="col-lg-3 copy-owner">
+                <p>Copyright 2015 TTP ECOM. All rights reserved</p>
+                <a href="#" title="Điều khoản sử dụng" class="link">Điều khoản sử dụng</a>
+                <a href="#" title="Chính sách bảo mật" class="link left-boder">Chính sách bảo mật</a>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
     </footer>
   </div>
   </body>

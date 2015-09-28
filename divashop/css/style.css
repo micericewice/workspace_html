@@ -1137,6 +1137,10 @@ a .link-default {
   margin-bottom: 10px;
 }
 
+.banner-ads-img {
+  width: 50%;
+  float: left;
+}
 /************************** RECOMMENDED **************************/
 /************************** TITLE **************************/
 
